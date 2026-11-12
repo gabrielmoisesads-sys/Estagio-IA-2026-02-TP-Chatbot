@@ -33,3 +33,18 @@ como renovo meu livro pelo celular?,renovacao,llm
   *vizinhos* ao seu tema, que um classificador ingênuo confundiria com o domínio.
 
 `python scripts/verificar_entrega.py` confere tudo isso.
+
+## Como o grupo montou os dados (tema Estágio)
+
+| arquivo | conteúdo |
+|---|---|
+| `gerados_llm.csv` | todas as frases geradas pelo LLM (`gerar_dados_llm.py` e `gerar_negativos_dificeis.py`) |
+| `prompts_llm.md` | registro de todos os prompts usados (base da declaração de uso de IA) |
+| `descartadas_llm.txt` | frases do LLM descartadas na revisão manual, com o motivo |
+| `geral/massive_*.csv` | base MASSIVE (negativos fáceis) |
+| `formulario_rotulado_modelo.csv` | modelo da planilha de rotulagem das respostas do formulário |
+| `humano_treino.csv` / `humano_teste.csv` | frases humanas, divididas por `scripts/dividir_formulario.py` |
+
+Fluxo: rotular as respostas do formulário na planilha (colunas `texto,intencao,autor`,
+`autor=grupo` para frases dos integrantes) → `python scripts/dividir_formulario.py
+dados/formulario_rotulado.csv` → `python scripts/montar_treino.py`.

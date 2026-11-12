@@ -1,0 +1,896 @@
+texto,intencao,origem
+"Olá, poderia me explicar qual é a diferença entre estágio obrigatório e estágio não obrigatório?",tipos_estagio,llm
+Como posso saber se o estágio é obrigatório no meu curso?,tipos_estagio,llm
+O estágio obrigatório precisa estar previsto no projeto pedagógico do curso?,tipos_estagio,llm
+Todo curso universitário exige estágio obrigatório para a formação?,tipos_estagio,llm
+O estágio não obrigatório pode ser realizado por estudantes de cursos que não exigem estágio curricular?,tipos_estagio,llm
+Quem está matriculado em uma universidade pode estagiar desde o início do curso?,tipos_estagio,llm
+É necessário estar frequentando as aulas para poder fazer estágio?,tipos_estagio,llm
+Uma pessoa com a matrícula trancada pode estagiar?,tipos_estagio,llm
+Quem já concluiu a graduação ainda pode ser considerado estudante para fazer estágio?,tipos_estagio,llm
+Estudantes de pós-graduação também podem realizar estágio?,tipos_estagio,llm
+Alunos de cursos técnicos ou do ensino médio podem estagiar?,tipos_estagio,llm
+Estudantes de cursos oferecidos a distância podem realizar estágio?,tipos_estagio,llm
+Uma pessoa estrangeira matriculada em uma universidade brasileira pode estagiar?,tipos_estagio,llm
+Há alguma idade mínima para um estudante poder fazer estágio?,tipos_estagio,llm
+"O estágio obrigatório pode ser substituído por outra atividade acadêmica, conforme as regras do curso?",tipos_estagio,llm
+Qual a diferença entre estágio obrigatório e não obrigatório?,tipos_estagio,llm
+Como sei se o estágio é obrigatório no meu curso?,tipos_estagio,llm
+Estágio obrigatório é aquele que conta como disciplina?,tipos_estagio,llm
+O estágio não obrigatório também pode contar como atividade complementar?,tipos_estagio,llm
+Todo curso de faculdade exige estágio obrigatório?,tipos_estagio,llm
+Quem tá na graduação pode fazer estágio não obrigatório?,tipos_estagio,llm
+Preciso estar matriculado pra poder estagiar?,tipos_estagio,llm
+Quem trancou a faculdade pode fazer estágio?,tipos_estagio,llm
+Estudante com matrícula irregular pode estagiar?,tipos_estagio,llm
+Dá pra fazer estágio antes de começar as aulas da faculdade?,tipos_estagio,llm
+Aluno de pós-graduação pode estagiar?,tipos_estagio,llm
+Quem já se formou ainda pode fazer estágio?,tipos_estagio,llm
+Estudante estrangeiro matriculado no Brasil pode estagiar?,tipos_estagio,llm
+O estágio obrigatório é uma escolha do aluno ou faz parte do curso?,tipos_estagio,llm
+qual a diferença entre estágio obrigatorio e não obrigatorio,tipos_estagio,llm
+estagio obrigatório é uma materia que todo curso precisa ter,tipos_estagio,llm
+o estágio não obrigatorio é opcional pra faculdade,tipos_estagio,llm
+sou calouro posso começar um estágio antes de chegar na materia obrigatoria,tipos_estagio,llm
+todo curso de graduação tem estágio obrigatorio ou depende da faculdade,tipos_estagio,llm
+preciso estar matriculado pra poder estagiar,tipos_estagio,llm
+quem ta com a matricula trancada pode fazer estágio,tipos_estagio,llm
+estudante de faculdade EAD também pode estagiar,tipos_estagio,llm
+quem ja terminou a faculdade ainda pode fazer estágio,tipos_estagio,llm
+aluno de curso tecnico pode estagiar ou é só universitario,tipos_estagio,llm
+estudante do ensino medio pode fazer estágio,tipos_estagio,llm
+quem faz pós graduação pode estagiar também,tipos_estagio,llm
+posso fazer estágio não obrigatorio mesmo se meu curso não exigir estágio,tipos_estagio,llm
+estágio obrigatorio conta como parte do curriculo da graduação,tipos_estagio,llm
+Estou no começo da faculdade e já posso fazer estágio não obrigatório ou preciso avançar no curso?,tipos_estagio,llm
+"Meu curso exige estágio obrigatório, mas não entendi em que momento ele passa a valer. Alguém pode me explicar?",tipos_estagio,llm
+Faço uma graduação a distância; posso cumprir estágio obrigatório normalmente?,tipos_estagio,llm
+Estou com pressa para organizar minha vida acadêmica: o estágio não obrigatório conta como obrigatório no meu curso?,tipos_estagio,llm
+Sou estudante de tecnólogo. Também posso fazer estágio obrigatório e não obrigatório?,tipos_estagio,llm
+Tranquei a faculdade por um semestre e estou confuso: ainda posso estagiar nesse período?,tipos_estagio,llm
+Estou matriculada em duas graduações ao mesmo tempo. Posso fazer estágio relacionado a qualquer uma delas?,tipos_estagio,llm
+Quem já se formou recentemente ainda pode fazer estágio ou precisa estar cursando uma graduação?,tipos_estagio,llm
+Estou no último semestre e não sei se ainda posso começar um estágio não obrigatório. Podem me orientar?,tipos_estagio,llm
+"Meu curso não exige estágio obrigatório, mas quero fazer um mesmo assim. Isso é permitido?",tipos_estagio,llm
+Sou aluno de licenciatura e estou perdido: estágio obrigatório é a mesma coisa que estágio não obrigatório?,tipos_estagio,llm
+"Estudo em uma universidade estrangeira, mas moro no Brasil. Posso estagiar aqui como estudante?",tipos_estagio,llm
+Tenho dúvidas sobre quem pode estagiar: aluno de pós-graduação também pode fazer estágio?,tipos_estagio,llm
+"Estou cursando o ensino médio junto com a faculdade. Para estagiar, vale minha condição de universitário?",tipos_estagio,llm
+Estágio obrigatório?,tipos_estagio,llm
+Estágio não obrigatório?,tipos_estagio,llm
+Qual a diferença?,tipos_estagio,llm
+Quem pode estagiar?,tipos_estagio,llm
+Posso fazer estágio?,tipos_estagio,llm
+Requisitos para estagiar?,tipos_estagio,llm
+Estágio curricular obrigatório?,tipos_estagio,llm
+Estágio extracurricular?,tipos_estagio,llm
+Estágio integra o curso?,tipos_estagio,llm
+Graduando pode estagiar?,tipos_estagio,llm
+Aluno técnico pode estagiar?,tipos_estagio,llm
+Calouro pode estagiar?,tipos_estagio,llm
+Formado pode estagiar?,tipos_estagio,llm
+Preciso estar matriculado?,tipos_estagio,llm
+"Onde posso consultar as vagas de estágio divulgadas pela universidade, por favor?",vagas_convenio,llm
+Como faço para me candidatar a uma vaga de estágio publicada no portal da instituição?,vagas_convenio,llm
+A universidade mantém uma lista de empresas conveniadas que oferecem vagas de estágio?,vagas_convenio,llm
+Como posso verificar se uma empresa já possui convênio ativo com a universidade?,vagas_convenio,llm
+Uma empresa que ainda não tem convênio pode se cadastrar para oferecer vagas a estudantes?,vagas_convenio,llm
+Quais documentos a empresa precisa apresentar para solicitar um convênio com a universidade?,vagas_convenio,llm
+Qual setor da universidade é responsável por orientar empresas interessadas em firmar convênio?,vagas_convenio,llm
+Existe algum prazo médio para a universidade analisar um pedido de convênio feito por uma empresa?,vagas_convenio,llm
+Uma organização sem fins lucrativos pode se cadastrar como concedente de estágio?,vagas_convenio,llm
+Órgãos públicos também podem oferecer vagas de estágio por meio da universidade?,vagas_convenio,llm
+"Posso buscar vagas em empresas localizadas em outro estado, desde que tenham convênio com a universidade?",vagas_convenio,llm
+Como descubro quais agentes de integração têm parceria com a universidade?,vagas_convenio,llm
+Qual é o procedimento para cadastrar meu perfil em um agente de integração parceiro?,vagas_convenio,llm
+As vagas anunciadas por agentes de integração precisam estar vinculadas a um convênio com a universidade?,vagas_convenio,llm
+Onde vejo as vagas de estágio disponíveis?,vagas_convenio,llm
+Tem algum portal da facul com vagas atualizadas?,vagas_convenio,llm
+Como faço pra buscar estágio na minha área?,vagas_convenio,llm
+A empresa que eu achei ainda não tem convênio com a universidade?,vagas_convenio,llm
+Como uma empresa faz pra firmar convênio com a faculdade?,vagas_convenio,llm
+Minha empresa pode entrar na lista de concedentes?,vagas_convenio,llm
+Onde consulto as empresas conveniadas?,vagas_convenio,llm
+Tem como indicar uma empresa pra oferecer vagas de estágio?,vagas_convenio,llm
+A faculdade divulga vagas do CIEE ou de outros agentes?,vagas_convenio,llm
+Quais agentes de integração têm parceria com a universidade?,vagas_convenio,llm
+Como me cadastro nos agentes de integração parceiros?,vagas_convenio,llm
+As vagas desses agentes aparecem no portal da faculdade?,vagas_convenio,llm
+Tem vaga de estágio em Campinas? Onde filtro por cidade?,vagas_convenio,llm
+Com quem falo sobre o cadastro de uma nova empresa concedente?,vagas_convenio,llm
+onde consigo ver as vagas de estágio que tem parceria com a universidade,vagas_convenio,llm
+como faço pra pesquisar empresas conveniadas pra estágio,vagas_convenio,llm
+a empresa que eu quero estagiar precisa ter convenio com a faculdade,vagas_convenio,llm
+tem algum lugar pra consultar a lista de empresas concedentes,vagas_convenio,llm
+uma empresa pode se cadastrar pra oferecer vaga de estágio pros alunos,vagas_convenio,llm
+como uma empresa faz pra firmar convenio com a universidade,vagas_convenio,llm
+conhecem algum agente de integração que trabalhe com a faculdade,vagas_convenio,llm
+posso procurar vaga de estágio direto pelo agente de integração,vagas_convenio,llm
+quais agentes de integração tem parceria com a universidade,vagas_convenio,llm
+achei uma vaga num site mas não sei se a empresa é conveniada,vagas_convenio,llm
+onde vejo as vagas divulgadas pelas empresas parceiras,vagas_convenio,llm
+a faculdade ajuda a encontrar empresas que ofereçam estágio,vagas_convenio,llm
+tem como sugerir uma empresa pra entrar na lista de conveniadas,vagas_convenio,llm
+os agentes de integração podem indicar vagas de estágio para os estudantes,vagas_convenio,llm
+Estou procurando estágio na minha área e não sei onde consultar as vagas disponíveis. O chatbot consegue me indicar algum canal atualizado?,vagas_convenio,llm
+"Achei uma vaga interessante, mas não sei como confirmar se essa empresa pode conceder estágio pela universidade. Preciso resolver isso logo.",vagas_convenio,llm
+"Uma empresa quer me contratar como estagiário, mas não aparece na lista de concedentes. Como ela pode verificar se tem convênio com a universidade?",vagas_convenio,llm
+Estou com uma vaga em vista e a empresa perguntou se precisa ter convênio com a minha instituição. Onde encontro essa informação?,vagas_convenio,llm
+"Vi uma oportunidade divulgada por um agente de integração, mas não sei se ele tem parceria com a universidade. Como posso conferir?",vagas_convenio,llm
+"Minha colega encontrou estágio por uma agência, e eu queria saber quais agentes de integração trabalham com a universidade. Onde vejo essa relação?",vagas_convenio,llm
+A empresa em que quero estagiar ainda não tem convênio com a universidade. Qual é o caminho para ela se cadastrar como concedente?,vagas_convenio,llm
+"Estou tentando achar oportunidades na minha área, mas só encontro anúncios antigos. Há algum portal de vagas recomendado pela universidade?",vagas_convenio,llm
+Recebi uma proposta de uma empresa pequena e estou com receio de ela não estar habilitada como concedente. Como confirmo isso rapidamente?,vagas_convenio,llm
+Um agente de integração me pediu para fazer cadastro na plataforma dele para concorrer a uma vaga. A universidade reconhece esse tipo de agente?,vagas_convenio,llm
+A empresa onde quero estagiar tem unidade em outra cidade. Como descubro se ela já tem convênio com a minha universidade?,vagas_convenio,llm
+Estou vendo várias vagas em sites diferentes e não sei quais são confiáveis. A universidade divulga oportunidades de empresas conveniadas?,vagas_convenio,llm
+"Uma empresa demonstrou interesse em abrir vagas para estudantes da universidade, mas não sabe com quem falar. Qual setor cuida do credenciamento de concedentes?",vagas_convenio,llm
+Quero me candidatar hoje a uma vaga anunciada por uma agência de integração. Como verifico se ela está autorizada a intermediar oportunidades para estudantes daqui?,vagas_convenio,llm
+Vagas de estágio disponíveis?,vagas_convenio,llm
+Onde encontro oportunidades?,vagas_convenio,llm
+Empresas conveniadas,vagas_convenio,llm
+Lista de concedentes,vagas_convenio,llm
+Como cadastrar empresa?,vagas_convenio,llm
+Convênio com empresas,vagas_convenio,llm
+Universidade tem convênios?,vagas_convenio,llm
+Firmar novo convênio,vagas_convenio,llm
+Agentes de integração cadastrados,vagas_convenio,llm
+Quais agentes conveniados?,vagas_convenio,llm
+Cadastro no CIEE?,vagas_convenio,llm
+Buscar estágio pelo Nube,vagas_convenio,llm
+Empresas parceiras,vagas_convenio,llm
+Divulgação de vagas,vagas_convenio,llm
+Como faço para solicitar a emissão do Termo de Compromisso de Estágio (TCE)?,termo_compromisso,llm
+Quais informações e documentos preciso apresentar para que o TCE seja elaborado corretamente?,termo_compromisso,llm
+O TCE pode ser assinado digitalmente por todas as partes?,termo_compromisso,llm
+Quem precisa assinar o TCE para que ele seja formalizado?,termo_compromisso,llm
+Em que momento devo encaminhar o TCE assinado à instituição?,termo_compromisso,llm
+É necessário entregar uma via do TCE para cada parte envolvida?,termo_compromisso,llm
+O que devo fazer se houver um erro nos dados do TCE depois que ele já foi assinado?,termo_compromisso,llm
+Como posso acompanhar a aprovação do TCE enviado para assinatura?,termo_compromisso,llm
+Em quais situações é necessário formalizar um termo aditivo ao TCE?,termo_compromisso,llm
+Como solicito um termo aditivo para alterar informações registradas no TCE?,termo_compromisso,llm
+O termo aditivo também precisa ser assinado por todas as partes do TCE?,termo_compromisso,llm
+Posso começar a cumprir uma alteração antes de o termo aditivo estar assinado?,termo_compromisso,llm
+Qual é o procedimento para formalizar a rescisão do TCE?,termo_compromisso,llm
+Quais documentos devo encaminhar para registrar a rescisão do meu TCE?,termo_compromisso,llm
+Como faço pra enviar o TCE pra assinatura?,termo_compromisso,llm
+Quem precisa assinar o TCE além de mim?,termo_compromisso,llm
+Pode assinar o termo digitalmente ou tem que imprimir?,termo_compromisso,llm
+"Assinei o TCE, mas ainda falta a assinatura da empresa. E agora?",termo_compromisso,llm
+A ordem das assinaturas no TCE faz diferença?,termo_compromisso,llm
+"Errei uma informação no TCE, preciso gerar outro?",termo_compromisso,llm
+"Depois que todo mundo assina, onde envio o TCE?",termo_compromisso,llm
+"Perdi minha via do termo, consigo pedir uma cópia?",termo_compromisso,llm
+"Pra fazer um termo aditivo, começo pelo portal?",termo_compromisso,llm
+O aditivo precisa das mesmas assinaturas do TCE?,termo_compromisso,llm
+Dá pra corrigir uma informação do TCE com um termo aditivo?,termo_compromisso,llm
+Como acompanho se o aditivo já foi aprovado?,termo_compromisso,llm
+"Quero encerrar meu estágio, como formalizo a rescisão?",termo_compromisso,llm
+"Depois da rescisão, preciso assinar algum documento?",termo_compromisso,llm
+como faço pra solicitar o termo de compromisso do estagio,termo_compromisso,llm
+o tce precisa ser assinado antes de eu começar,termo_compromisso,llm
+quem assina o termo de compromisso pela universidade,termo_compromisso,llm
+posso assinar o tce pelo celular ou tem que imprimir,termo_compromisso,llm
+assinei o documento mas esqueci de preencher uma parte e agora,termo_compromisso,llm
+quanto tempo demora pra aprovarem o termo de compromisso,termo_compromisso,llm
+mandei o tce pra assinatura e ainda nao recebi retorno,termo_compromisso,llm
+posso corrigir os dados do termo depois que todo mundo assinou,termo_compromisso,llm
+preciso fazer um termo aditivo pra mudar as informaçoes do tce,termo_compromisso,llm
+como peço um aditivo pro meu termo de compromisso,termo_compromisso,llm
+o aditivo precisa ter assinatura de todas as partes tambem,termo_compromisso,llm
+da pra alterar o tce usando assinatura digital,termo_compromisso,llm
+quero encerrar meu estagio antes do previsto como faço a rescisao,termo_compromisso,llm
+preciso assinar algum documento pra formalizar a rescisao do estagio,termo_compromisso,llm
+Enviei o TCE para assinatura há alguns dias e ainda aparece pendente no sistema. Como faço para saber com quem está o documento?,termo_compromisso,llm
+Estou com pressa para começar e percebi que meu nome está escrito errado no TCE. Preciso pedir a correção antes de todo mundo assinar?,termo_compromisso,llm
+"A empresa assinou o termo, mas o campo de assinatura da universidade continua vazio. Quem devo procurar para concluir o processo?",termo_compromisso,llm
+"Assinei o TCE digitalmente, mas não recebi uma cópia com as outras assinaturas. Vocês conseguem me orientar?",termo_compromisso,llm
+"Meu TCE voltou porque faltou uma assinatura, mas não entendi de quem. Onde posso consultar essa informação?",termo_compromisso,llm
+Preciso corrigir uma informação no TCE que já foi assinado por todos. É possível fazer um termo aditivo ou tenho que emitir outro documento?,termo_compromisso,llm
+Meu endereço mudou depois que o TCE foi assinado. Essa alteração precisa constar em um termo aditivo?,termo_compromisso,llm
+A empresa pediu para atualizar os dados do representante no TCE. Como faço para solicitar um termo aditivo?,termo_compromisso,llm
+"Enviei o termo aditivo para assinatura, mas ele voltou com uma pendência que não consigo identificar. Podem me explicar o que devo conferir?",termo_compromisso,llm
+"Assinei o termo aditivo, mas percebi que usei a versão antiga do documento. Como posso substituir o arquivo?",termo_compromisso,llm
+Meu estágio vai ser encerrado antes do previsto e estou preocupada com a documentação. Qual é o procedimento para formalizar a rescisão do TCE?,termo_compromisso,llm
+"A empresa já confirmou que vai rescindir o TCE, mas eu ainda não recebi nenhum documento para assinar. O que devo fazer?",termo_compromisso,llm
+"Enviei o pedido de rescisão, mas o TCE continua aparecendo como ativo no sistema. Como acompanho a atualização?",termo_compromisso,llm
+Preciso cancelar um TCE que foi assinado por engano e ainda não começou a valer. Com quem resolvo isso com urgência?,termo_compromisso,llm
+Como emitir TCE?,termo_compromisso,llm
+Assinatura digital aceita?,termo_compromisso,llm
+Quem assina o TCE?,termo_compromisso,llm
+TCE sem assinatura,termo_compromisso,llm
+Prazo para assinar TCE?,termo_compromisso,llm
+Assinatura da concedente,termo_compromisso,llm
+Assinatura do estudante,termo_compromisso,llm
+Assinatura da faculdade,termo_compromisso,llm
+Alterar dados do TCE,termo_compromisso,llm
+Como fazer aditivo?,termo_compromisso,llm
+Aditivo precisa assinar?,termo_compromisso,llm
+Rescindir termo de estágio,termo_compromisso,llm
+Como rescindir TCE?,termo_compromisso,llm
+Modelo de rescisão,termo_compromisso,llm
+Qual é o limite de horas que posso cumprir por dia no estágio?,carga_horaria,llm
+Quantas horas semanais são permitidas para a jornada de estágio?,carga_horaria,llm
+A jornada do estágio pode ser distribuída de forma diferente ao longo da semana?,carga_horaria,llm
+É possível cumprir seis horas de estágio por dia?,carga_horaria,llm
+Existe um limite de horas diárias que não pode ser ultrapassado?,carga_horaria,llm
+Como é definida a carga horária semanal do estágio?,carga_horaria,llm
+A jornada de estágio pode ser ajustada durante o período de provas?,carga_horaria,llm
+Qual é o tempo máximo que um estágio pode durar na mesma instituição concedente?,carga_horaria,llm
+Por quanto tempo posso permanecer estagiando na mesma empresa?,carga_horaria,llm
+Há um limite de duração total para o estágio na mesma concedente?,carga_horaria,llm
+Como funciona o recesso para quem estagia durante doze meses?,carga_horaria,llm
+Quantos dias de recesso são concedidos a cada mês de estágio?,carga_horaria,llm
+O recesso do estágio pode ser dividido em períodos menores?,carga_horaria,llm
+"Quando o estágio dura menos de um ano, como é calculado o período de recesso?",carga_horaria,llm
+Quantas horas por dia posso fazer de estágio?,carga_horaria,llm
+Tem limite de horas por semana no estágio?,carga_horaria,llm
+Estagiário pode fazer 8h por dia?,carga_horaria,llm
+A jornada pode passar de 30 horas semanais?,carga_horaria,llm
+Tem diferença de carga horária pra quem estuda à noite?,carga_horaria,llm
+Posso estagiar de manhã e estudar à tarde?,carga_horaria,llm
+Qual é o tempo máximo que um estágio pode durar?,carga_horaria,llm
+O estágio pode durar mais de 2 anos?,carga_horaria,llm
+Esse limite de duração vale pra cada estágio?,carga_horaria,llm
+Como funciona o recesso do estágio?,carga_horaria,llm
+Tenho direito a recesso depois de quanto tempo?,carga_horaria,llm
+O recesso aumenta conforme o tempo de estágio?,carga_horaria,llm
+Posso tirar o recesso em partes ou tem que ser tudo junto?,carga_horaria,llm
+"Se o estágio acabar antes, como fica o recesso que não tirei?",carga_horaria,llm
+quantas horas por dia posso ficar no estágio,carga_horaria,llm
+a carga horaria do estagio pode passar de seis horas diarias,carga_horaria,llm
+tem limite de horas por semana no estagio,carga_horaria,llm
+posso fazer estagio oito horas por dia,carga_horaria,llm
+qual é a jornada maxima permitida pra estagiario,carga_horaria,llm
+o estagio pode durar mais de dois anos,carga_horaria,llm
+tem um tempo maximo pra ficar na mesma empresa como estagiario,carga_horaria,llm
+quanto tempo posso permanecer no estagio,carga_horaria,llm
+como funciona o recesso do estagio,carga_horaria,llm
+tenho direito a recesso depois de quantos meses,carga_horaria,llm
+o recesso do estagio aumenta conforme o tempo que eu fico,carga_horaria,llm
+posso tirar o recesso tudo de uma vez,carga_horaria,llm
+o recesso precisa ser marcado junto com as ferias da faculdade,carga_horaria,llm
+quantos dias de recesso tenho direito no estagio,carga_horaria,llm
+Estou fazendo estágio e queria confirmar: posso cumprir 6 horas por dia e 30 por semana? Preciso responder isso ainda hoje.,carga_horaria,llm
+"Minha aula começa às 19h, mas o estágio vai até 18h30. Existe um intervalo mínimo entre o fim da jornada e o início da aula?",carga_horaria,llm
+Estou ficando além do horário quase todos os dias. A carga horária do estágio pode passar do limite semanal em semanas mais corridas?,carga_horaria,llm
+Tenho prova na faculdade esta semana e queria reduzir o expediente nesses dias. Há alguma regra sobre a jornada durante o período de avaliações?,carga_horaria,llm
+Comecei o estágio no meio do semestre e estou confuso com a duração máxima. Por quanto tempo posso permanecer no mesmo estágio?,carga_horaria,llm
+Meu estágio está perto de completar dois anos e estou preocupado com o prazo. Esse é o limite máximo de duração?,carga_horaria,llm
+Faço faculdade à noite e me ofereceram um horário de 7 horas por dia. Isso pode ultrapassar a carga horária permitida para estudante universitário?,carga_horaria,llm
+Tenho uma pausa de uma hora no meio do expediente. Esse intervalo conta como parte das horas de estágio?,carga_horaria,llm
+A empresa quer que eu faça algumas horas no sábado para compensar um dia em que saí mais cedo. Essa compensação pode fazer minha jornada passar do limite?,carga_horaria,llm
+Estou exausto porque minha jornada está distribuída em seis dias da semana. Existe um limite diário ou semanal que preciso conferir?,carga_horaria,llm
+Meu estágio vai continuar durante as férias da faculdade. A carga horária pode ser maior nesse período ou permanece igual?,carga_horaria,llm
+Estou planejando viajar nas férias e não sei como funciona o recesso do estágio. Tenho direito a 30 dias depois de um ano?,carga_horaria,llm
+Completei seis meses de estágio e ainda não tirei recesso. Posso pedir alguns dias agora ou preciso esperar completar um ano?,carga_horaria,llm
+Meu estágio termina antes de eu completar um ano e não vou conseguir tirar o recesso inteiro. Como são calculados os dias proporcionais?,carga_horaria,llm
+Qual carga horária?,carga_horaria,llm
+Jornada semanal máxima?,carga_horaria,llm
+Limite diário de horas?,carga_horaria,llm
+Quantas horas por semana?,carga_horaria,llm
+Posso estagiar à noite?,carga_horaria,llm
+Estágio pode ser integral?,carga_horaria,llm
+Duração máxima do estágio?,carga_horaria,llm
+Quanto tempo pode durar?,carga_horaria,llm
+Pode durar dois anos?,carga_horaria,llm
+Prazo máximo permitido?,carga_horaria,llm
+Recesso é obrigatório?,carga_horaria,llm
+Quantos dias de recesso?,carga_horaria,llm
+Recesso durante as férias?,carga_horaria,llm
+Como funciona o recesso?,carga_horaria,llm
+Qual é o valor da bolsa-auxílio oferecida aos estagiários?,bolsa_auxilio,llm
+Poderia me informar se o valor da bolsa varia conforme o curso ou o nível de formação?,bolsa_auxilio,llm
+Em que dia do mês costuma ser feito o pagamento da bolsa-auxílio?,bolsa_auxilio,llm
+A bolsa é paga por depósito bancário ou há outra forma de recebimento?,bolsa_auxilio,llm
+É possível receber a bolsa-auxílio em uma conta bancária de minha titularidade?,bolsa_auxilio,llm
+A bolsa pode sofrer descontos durante o período de estágio?,bolsa_auxilio,llm
+Quais descontos podem ser aplicados ao valor da bolsa-auxílio?,bolsa_auxilio,llm
+O valor da bolsa é reajustado periodicamente?,bolsa_auxilio,llm
+Como é calculado o pagamento da bolsa no primeiro mês?,bolsa_auxilio,llm
+"Caso haja atraso no pagamento, qual canal devo procurar para obter orientação?",bolsa_auxilio,llm
+O auxílio-transporte é pago junto com a bolsa ou em uma data diferente?,bolsa_auxilio,llm
+Como é definido o valor do auxílio-transporte?,bolsa_auxilio,llm
+O auxílio-transporte é depositado em dinheiro ou fornecido por outro meio?,bolsa_auxilio,llm
+Há algum desconto ou coparticipação no valor do auxílio-transporte?,bolsa_auxilio,llm
+Qual é o valor mínimo da bolsa de estágio?,bolsa_auxilio,llm
+A bolsa pode ser negociada com a empresa?,bolsa_auxilio,llm
+Estágio pode ser remunerado por hora?,bolsa_auxilio,llm
+Como calculam o valor da bolsa?,bolsa_auxilio,llm
+Tem desconto de INSS na bolsa?,bolsa_auxilio,llm
+A bolsa cai todo mês ou pode atrasar?,bolsa_auxilio,llm
+O auxílio-transporte é pago junto com a bolsa?,bolsa_auxilio,llm
+Como funciona o pagamento do auxílio-transporte?,bolsa_auxilio,llm
+A empresa pode pagar o transporte em dinheiro?,bolsa_auxilio,llm
+O auxílio-transporte cobre ida e volta?,bolsa_auxilio,llm
+"Se eu não usar ônibus, ainda recebo auxílio-transporte?",bolsa_auxilio,llm
+Tem limite pro valor do auxílio-transporte?,bolsa_auxilio,llm
+A bolsa pode aumentar durante o estágio?,bolsa_auxilio,llm
+Posso receber bolsa e auxílio-transporte ao mesmo tempo?,bolsa_auxilio,llm
+qual é o valor minimo da bolsa de estagio,bolsa_auxilio,llm
+a bolsa do estagio pode ser menor que um salario minimo,bolsa_auxilio,llm
+como vejo se o valor que recebo ta certo,bolsa_auxilio,llm
+o pagamento da bolsa cai todo mes,bolsa_auxilio,llm
+meu pagamento veio com um valor diferente esse mes,bolsa_auxilio,llm
+a empresa pode descontar alguma coisa da bolsa,bolsa_auxilio,llm
+o auxilio transporte é pago junto com a bolsa,bolsa_auxilio,llm
+tenho direito a receber auxilio transporte em dinheiro,bolsa_auxilio,llm
+o valor do transporte pode ser descontado da minha bolsa,bolsa_auxilio,llm
+como calculo quanto vou receber de auxilio transporte,bolsa_auxilio,llm
+a bolsa pode aumentar durante o estagio,bolsa_auxilio,llm
+o estagiario recebe decimo terceiro,bolsa_auxilio,llm
+tem algum desconto de imposto no pagamento do estagiario,bolsa_auxilio,llm
+nao recebi o auxilio transporte junto com o pagamento o que faço,bolsa_auxilio,llm
+"Estou contando com a bolsa deste mês, mas ela ainda não caiu na conta. Vocês sabem quando o pagamento será feito?",bolsa_auxilio,llm
+Minha bolsa veio menor do que o valor combinado e estou preocupado. Como posso conferir o cálculo?,bolsa_auxilio,llm
+O auxílio-transporte não apareceu no meu pagamento deste mês. Preciso solicitar esse benefício separadamente?,bolsa_auxilio,llm
+Estou sem dinheiro para as passagens e o auxílio-transporte está atrasado. Quando ele costuma ser depositado?,bolsa_auxilio,llm
+A bolsa e o auxílio-transporte são pagos juntos ou em datas diferentes? Preciso me organizar financeiramente.,bolsa_auxilio,llm
+Recebi um valor diferente na bolsa e não entendi se houve algum desconto. Onde posso consultar o detalhamento?,bolsa_auxilio,llm
+Meu banco recusou o depósito da bolsa por causa dos dados da conta. Como faço para corrigir isso rápido?,bolsa_auxilio,llm
+O valor do auxílio-transporte não está cobrindo minhas passagens. Como é definido quanto vou receber?,bolsa_auxilio,llm
+"Comecei a receber a bolsa recentemente, mas não sei qual é a data fixa de pagamento. Podem me informar?",bolsa_auxilio,llm
+A bolsa deste mês ainda não foi paga e preciso quitar minhas contas. Com quem falo para verificar o atraso?,bolsa_auxilio,llm
+Mudei o número da minha conta bancária e estou com medo de o próximo pagamento não cair. Como atualizo meus dados?,bolsa_auxilio,llm
+O auxílio-transporte veio com um valor menor do que no mês passado. Isso pode variar de um mês para outro?,bolsa_auxilio,llm
+"Queria confirmar se a bolsa tem algum desconto obrigatório, porque o valor líquido ficou abaixo do que eu esperava.",bolsa_auxilio,llm
+"Fui informado de que teria auxílio-transporte, mas não recebi nenhum valor até agora. Como verifico se meu cadastro está certo?",bolsa_auxilio,llm
+Qual o valor da bolsa?,bolsa_auxilio,llm
+Quanto vou receber?,bolsa_auxilio,llm
+Bolsa mensal?,bolsa_auxilio,llm
+Quando cai o pagamento?,bolsa_auxilio,llm
+Pagamento atrasado?,bolsa_auxilio,llm
+Tem desconto na bolsa?,bolsa_auxilio,llm
+A bolsa é tributável?,bolsa_auxilio,llm
+Existe valor mínimo?,bolsa_auxilio,llm
+Pode haver reajuste?,bolsa_auxilio,llm
+Tem auxílio-transporte?,bolsa_auxilio,llm
+Qual o valor do transporte?,bolsa_auxilio,llm
+O transporte é pago?,bolsa_auxilio,llm
+Recebo bolsa e VT?,bolsa_auxilio,llm
+Como pedir auxílio-transporte?,bolsa_auxilio,llm
+O seguro contra acidentes pessoais do estagiário cobre acidentes ocorridos durante as atividades no local de estágio?,seguro,llm
+Poderia me informar se a cobertura também vale no trajeto entre minha casa e o local de estágio?,seguro,llm
+Quais tipos de acidentes estão incluídos na apólice do seguro do estagiário?,seguro,llm
+O seguro prevê indenização em caso de morte acidental?,seguro,llm
+Há cobertura para invalidez permanente causada por acidente durante o estágio?,seguro,llm
+As despesas com atendimento médico de emergência após um acidente são cobertas pelo seguro?,seguro,llm
+Como posso consultar o nome da seguradora e o número da apólice que me cobre?,seguro,llm
+Existe algum documento que comprove que estou incluído na cobertura do seguro contra acidentes pessoais?,seguro,llm
+Quem é responsável pelo pagamento do seguro contra acidentes pessoais do estagiário?,seguro,llm
+A cobertura do seguro tem algum limite máximo de indenização por acidente?,seguro,llm
+Há situações ou tipos de acidente que são excluídos da cobertura?,seguro,llm
+Qual é o prazo para comunicar um acidente à seguradora e solicitar a indenização?,seguro,llm
+Quais documentos preciso apresentar para abrir um pedido de indenização após um acidente?,seguro,llm
+Como posso confirmar se o seguro cobre acidentes ocorridos fora do município onde realizo o estágio?,seguro,llm
+O estagiário tem seguro contra acidentes pessoais?,seguro,llm
+Esse seguro cobre acidente no trajeto até o estágio?,seguro,llm
+"Se eu me machucar durante o estágio, como aciono o seguro?",seguro,llm
+Qual é o valor da cobertura do seguro?,seguro,llm
+O seguro cobre despesas médicas depois de um acidente?,seguro,llm
+Como descubro qual seguradora atende os estagiários?,seguro,llm
+Tem algum número pra ligar em caso de acidente?,seguro,llm
+O seguro também cobre invalidez permanente?,seguro,llm
+"Se acontecer um acidente fora da empresa, ainda tenho cobertura?",seguro,llm
+Preciso apresentar algum documento pra usar o seguro?,seguro,llm
+Como faço pra consultar minha apólice?,seguro,llm
+O seguro cobre acidente durante o horário de almoço?,seguro,llm
+"Em caso de acidente, quem deve comunicar a seguradora?",seguro,llm
+O seguro inclui cobertura por morte acidental?,seguro,llm
+o seguro contra acidentes pessoais cobre acidente dentro e fora da faculdade,seguro,llm
+como faço pra saber qual seguradora cuida do meu seguro de estagiario,seguro,llm
+se eu me machucar no caminho pra casa o seguro cobre,seguro,llm
+onde encontro o numero da apolice do meu seguro,seguro,llm
+o seguro cobre despesas de hospital se eu sofrer um acidente,seguro,llm
+quem recebe a indenização do seguro se acontecer algo comigo,seguro,llm
+tem algum prazo pra avisar a seguradora depois de um acidente,seguro,llm
+meu seguro cobre acidente durante viagem,seguro,llm
+como peço reembolso de gastos medicos pelo seguro,seguro,llm
+quais acidentes não são cobertos pelo seguro do estagiario,seguro,llm
+preciso levar algum documento pra acionar o seguro,seguro,llm
+o seguro cobre invalidez causada por acidente,seguro,llm
+como confirmo se meu seguro ainda ta ativo,seguro,llm
+se eu sofrer um acidente fora do brasil o seguro vale também,seguro,llm
+Estou nervoso porque sofri uma queda durante uma atividade do estágio. Como faço para acionar o seguro contra acidentes pessoais?,seguro,llm
+Preciso saber se o seguro cobre despesas médicas depois de um acidente. Onde encontro essa informação?,seguro,llm
+Meu certificado do seguro não chegou e estou preocupado. Como confirmo se estou coberto?,seguro,llm
+"Aconteceu um acidente comigo e pediram o número da apólice, mas não sei onde achar. Podem me orientar?",seguro,llm
+Estou com pressa para entender: o seguro cobre invalidez permanente causada por acidente?,seguro,llm
+Quais documentos preciso apresentar para pedir o reembolso de gastos médicos por um acidente?,seguro,llm
+O seguro contra acidentes pessoais também cobre atendimento de emergência? Preciso dessa resposta logo.,seguro,llm
+Não consigo localizar os dados da seguradora. Como descubro para quem devo ligar se acontecer um acidente?,seguro,llm
+Estou preocupado com uma lesão que sofri durante o estágio. O seguro cobre consultas e exames?,seguro,llm
+"Se houver falecimento acidental, quem pode solicitar a indenização do seguro? Preciso entender isso.",seguro,llm
+Meu certificado informa uma vigência que parece já ter acabado. Como confirmo se a cobertura está ativa?,seguro,llm
+"Em caso de acidente, existe um prazo para comunicar a seguradora? Estou com receio de perder o direito à cobertura.",seguro,llm
+O seguro cobre acidentes que acontecem fora do local onde realizo minhas atividades? Preciso confirmar isso agora.,seguro,llm
+Tive um acidente e não sei se devo guardar recibos e laudos para acionar o seguro. Quais comprovantes são necessários?,seguro,llm
+Seguro cobre acidentes?,seguro,llm
+Cobertura do seguro,seguro,llm
+Apólice do estagiário,seguro,llm
+Quem paga o seguro?,seguro,llm
+Como acionar o seguro?,seguro,llm
+Seguro cobre trajeto?,seguro,llm
+Acidente fora da empresa?,seguro,llm
+Despesas médicas cobertas?,seguro,llm
+Qual é a seguradora?,seguro,llm
+Número da apólice?,seguro,llm
+Seguro cobre invalidez?,seguro,llm
+Indenização por acidente,seguro,llm
+Seguro durante viagens?,seguro,llm
+Como consultar a cobertura?,seguro,llm
+Seguro cobre emergências?,seguro,llm
+"Quem pode atuar como professor orientador de estágio no meu curso, por gentileza?",orientador_supervisor,llm
+Quais são as responsabilidades do professor orientador durante o estágio?,orientador_supervisor,llm
+"Como posso solicitar a indicação de um professor orientador, por favor?",orientador_supervisor,llm
+Com que frequência devo conversar com meu professor orientador sobre as atividades do estágio?,orientador_supervisor,llm
+O professor orientador precisa ter experiência na área específica em que vou estagiar?,orientador_supervisor,llm
+Qual é o papel do supervisor de estágio na instituição onde realizarei as atividades?,orientador_supervisor,llm
+Quem pode ser designado como supervisor de estágio na instituição concedente?,orientador_supervisor,llm
+O supervisor precisa ter formação ou experiência relacionada às atividades que vou desenvolver?,orientador_supervisor,llm
+Qual é a diferença entre as atribuições do professor orientador e as do supervisor de estágio?,orientador_supervisor,llm
+Como devo proceder se tiver dificuldade para entrar em contato com meu supervisor?,orientador_supervisor,llm
+A Comissão de Estágio do curso pode esclarecer dúvidas sobre as atribuições do orientador e do supervisor?,orientador_supervisor,llm
+"Como posso entrar em contato com a Comissão de Estágio (COE), por gentileza?",orientador_supervisor,llm
+Quais assuntos relacionados ao estágio devem ser encaminhados à COE?,orientador_supervisor,llm
+A COE pode ajudar caso haja divergência entre as orientações do professor orientador e do supervisor?,orientador_supervisor,llm
+Quem pode ser meu professor orientador de estágio?,orientador_supervisor,llm
+Como faço pra escolher um orientador na faculdade?,orientador_supervisor,llm
+O professor orientador precisa ser da minha área?,orientador_supervisor,llm
+Qual é o papel do orientador durante o estágio?,orientador_supervisor,llm
+Com que frequência devo conversar com meu orientador?,orientador_supervisor,llm
+Posso trocar de professor orientador se não estiver dando certo?,orientador_supervisor,llm
+Quem pode atuar como supervisor de estágio na empresa?,orientador_supervisor,llm
+O supervisor precisa ter formação na mesma área que eu?,orientador_supervisor,llm
+Qual é a função do supervisor no dia a dia do estágio?,orientador_supervisor,llm
+Posso ter mais de um supervisor na empresa?,orientador_supervisor,llm
+O supervisor pode ser alguém de outro setor?,orientador_supervisor,llm
+O que significa COE?,orientador_supervisor,llm
+Quem faz parte da Comissão de Estágio?,orientador_supervisor,llm
+Como posso falar com a COE da minha faculdade?,orientador_supervisor,llm
+quem pode ser meu professor orientador na faculdade,orientador_supervisor,llm
+qual a diferença entre orientador e supervisor do estágio,orientador_supervisor,llm
+meu supervisor precisa ser da mesma area do curso,orientador_supervisor,llm
+o professor orientador pode ser de outro departamento,orientador_supervisor,llm
+como faço pra saber quem é o orientador responsavel pelo meu curso,orientador_supervisor,llm
+posso conversar com a COE pra tirar duvidas sobre o estágio,orientador_supervisor,llm
+oq exatamente a comissao de estágio faz,orientador_supervisor,llm
+como descubro quem são os membros da COE,orientador_supervisor,llm
+a COE pode me indicar um professor orientador,orientador_supervisor,llm
+meu supervisor da empresa pode ser formado em outra area,orientador_supervisor,llm
+com que frequencia devo falar com meu orientador,orientador_supervisor,llm
+o professor orientador acompanha as atividades que eu realizo,orientador_supervisor,llm
+quem escolhe o supervisor de estágio na empresa,orientador_supervisor,llm
+a comissão de estágio analisa as atividades que vou desenvolver,orientador_supervisor,llm
+Estou confuso: qual é a diferença entre o professor orientador e o supervisor da empresa?,orientador_supervisor,llm
+"Preciso falar com meu professor orientador, mas não sei onde encontro o contato dele. Como faço?",orientador_supervisor,llm
+Meu supervisor mudou de setor e não sei quem vai acompanhar minhas atividades agora. Com quem devo confirmar isso?,orientador_supervisor,llm
+A COE precisa aprovar quem será meu professor orientador ou essa escolha é feita pelo curso?,orientador_supervisor,llm
+Não consigo localizar meu supervisor e estou preocupado porque preciso tirar uma dúvida sobre as atividades. Quem pode me orientar?,orientador_supervisor,llm
+Posso pedir para trocar de professor orientador se ele não for da minha área de atuação?,orientador_supervisor,llm
+A pessoa indicada como supervisora precisa ter alguma formação específica? Estou tentando entender antes de confirmar com a empresa.,orientador_supervisor,llm
+Não sei se a COE do meu curso é a mesma comissão que atende outros cursos. Como descubro quem procurar?,orientador_supervisor,llm
+Meu professor orientador está afastado neste semestre e não sei a quem recorrer. A COE pode indicar outra pessoa?,orientador_supervisor,llm
+O supervisor da empresa pode ser alguém que não trabalha diretamente comigo no dia a dia? Preciso esclarecer isso logo.,orientador_supervisor,llm
+Tenho uma dúvida sobre o papel da COE durante o estágio. Ela acompanha cada estudante ou só resolve questões do curso?,orientador_supervisor,llm
+A COE ainda não respondeu minha mensagem e estou ansioso. Existe outro canal para falar com a comissão?,orientador_supervisor,llm
+Meu orientador e meu supervisor me passaram instruções diferentes sobre uma atividade. Quem devo procurar para resolver esse desencontro?,orientador_supervisor,llm
+Estou começando o estágio e não sei quando devo procurar o professor orientador pela primeira vez. Há alguma orientação do curso sobre isso?,orientador_supervisor,llm
+Como escolher orientador?,orientador_supervisor,llm
+Trocar professor orientador,orientador_supervisor,llm
+Função do orientador,orientador_supervisor,llm
+Quem pode orientar?,orientador_supervisor,llm
+Orientador por curso?,orientador_supervisor,llm
+Orientador de outro departamento?,orientador_supervisor,llm
+Atribuições do supervisor,orientador_supervisor,llm
+Quem pode supervisionar?,orientador_supervisor,llm
+Supervisor precisa ser da área?,orientador_supervisor,llm
+Trocar supervisor de estágio,orientador_supervisor,llm
+Contato da COE,orientador_supervisor,llm
+Membros da COE,orientador_supervisor,llm
+Competências da COE,orientador_supervisor,llm
+Reuniões da COE,orientador_supervisor,llm
+Como devo organizar as informações no relatório de atividades do estágio para que ele fique claro e completo?,relatorio_avaliacao,llm
+Existe um modelo específico que devo usar para elaborar os relatórios de atividades?,relatorio_avaliacao,llm
+Quais tipos de atividades e aprendizados precisam ser descritos no relatório?,relatorio_avaliacao,llm
+"Posso incluir anexos, imagens ou outros registros para complementar meu relatório?",relatorio_avaliacao,llm
+Como devo apresentar no relatório as dificuldades que encontrei e as soluções que desenvolvi?,relatorio_avaliacao,llm
+Qual é a melhor forma de relacionar as atividades realizadas aos conhecimentos do meu curso?,relatorio_avaliacao,llm
+Onde devo entregar os relatórios de atividades para que sejam analisados?,relatorio_avaliacao,llm
+"Depois de enviar um relatório, posso corrigir ou complementar as informações se necessário?",relatorio_avaliacao,llm
+Quais critérios são considerados na avaliação dos relatórios de atividades?,relatorio_avaliacao,llm
+Como posso consultar o resultado da avaliação do meu relatório?,relatorio_avaliacao,llm
+"Caso meu relatório precise de ajustes, como saberei quais alterações devo fazer?",relatorio_avaliacao,llm
+O que devo incluir no relatório final para registrar a conclusão do estágio?,relatorio_avaliacao,llm
+Há algum procedimento para confirmar que a documentação de conclusão do estágio foi recebida?,relatorio_avaliacao,llm
+"Após a aprovação do relatório final, como posso obter a confirmação de que concluí essa etapa?",relatorio_avaliacao,llm
+Como faço o relatório das atividades do estágio?,relatorio_avaliacao,llm
+Tem algum modelo de relatório pra preencher?,relatorio_avaliacao,llm
+Preciso descrever cada atividade que realizei?,relatorio_avaliacao,llm
+O relatório tem que ser entregue por mês ou só no final?,relatorio_avaliacao,llm
+Posso incluir fotos ou anexos no relatório?,relatorio_avaliacao,llm
+Qual o formato certo pra enviar o relatório?,relatorio_avaliacao,llm
+Onde vejo o prazo de entrega do relatório final?,relatorio_avaliacao,llm
+"Meu relatório voltou com ajustes, como faço pra corrigir?",relatorio_avaliacao,llm
+A avaliação do estágio considera quais critérios?,relatorio_avaliacao,llm
+Como fico sabendo da nota da avaliação?,relatorio_avaliacao,llm
+Tem apresentação final do estágio ou só entrega do relatório?,relatorio_avaliacao,llm
+O que precisa constar na conclusão do relatório?,relatorio_avaliacao,llm
+Posso refazer a conclusão depois que enviar o relatório?,relatorio_avaliacao,llm
+"Depois de entregar o relatório final, como confirmo que o estágio foi concluído?",relatorio_avaliacao,llm
+como faço o relatorio das atividades que realizei no estagio,relatorio_avaliacao,llm
+tem algum modelo pra preencher o relatorio final de estagio,relatorio_avaliacao,llm
+preciso colocar todas as tarefas que fiz no relatorio,relatorio_avaliacao,llm
+errei algumas informaçoes no relatorio como posso corrigir,relatorio_avaliacao,llm
+qual o prazo pra entregar os relatorios de atividades,relatorio_avaliacao,llm
+o relatorio parcial precisa ser feito todo semestre,relatorio_avaliacao,llm
+como é feita a avaliaçao do meu desempenho no estagio,relatorio_avaliacao,llm
+quais criterios contam na nota final do estagio,relatorio_avaliacao,llm
+onde consigo ver o resultado da avaliaçao do estagio,relatorio_avaliacao,llm
+recebi comentarios sobre meu relatorio posso enviar uma versao corrigida,relatorio_avaliacao,llm
+o que devo escrever na conclusao do relatorio de estagio,relatorio_avaliacao,llm
+como organizar as atividades por data no relatorio,relatorio_avaliacao,llm
+preciso anexar algum comprovante junto com o relatorio final,relatorio_avaliacao,llm
+depois de entregar o relatorio como sei se conclui o estagio,relatorio_avaliacao,llm
+Estou terminando meu relatório de atividades e não sei se preciso descrever cada tarefa ou fazer um resumo geral. Qual formato devo usar?,relatorio_avaliacao,llm
+Meu relatório voltou com pedido de ajustes e estou com pouco tempo para corrigir. Como descubro exatamente o que precisa mudar?,relatorio_avaliacao,llm
+Perdi o prazo de envio do relatório parcial e estou muito preocupada. Ainda posso entregar?,relatorio_avaliacao,llm
+Não sei como relacionar as atividades que fiz com o que aprendi no curso no relatório. Pode me orientar?,relatorio_avaliacao,llm
+"Estou preenchendo a avaliação do estágio, mas não entendi os critérios de nota. Onde encontro essa informação?",relatorio_avaliacao,llm
+"Já enviei o relatório final, mas ainda não recebi retorno sobre a avaliação. Como posso acompanhar o resultado?",relatorio_avaliacao,llm
+"Preciso concluir o estágio no sistema, mas não aparece a opção de finalizar. O que devo fazer?",relatorio_avaliacao,llm
+"Meu relatório está quase pronto, só falta a parte de conclusão. O que é importante incluir nessa seção?",relatorio_avaliacao,llm
+A plataforma não aceita o arquivo do meu relatório e o prazo está chegando. Quais formatos são permitidos?,relatorio_avaliacao,llm
+Recebi uma nota baixa na avaliação e não entendi o motivo. Existe algum jeito de pedir revisão?,relatorio_avaliacao,llm
+Estou sem saber como registrar as atividades que foram diferentes do plano inicial no relatório. Devo explicar essa mudança?,relatorio_avaliacao,llm
+"Entreguei todos os relatórios, mas meu estágio ainda aparece como pendente. Como verifico o que falta para concluir?",relatorio_avaliacao,llm
+O modelo do relatório final não abre no celular e preciso entregar hoje. Existe outra forma de acessar o documento?,relatorio_avaliacao,llm
+"Na avaliação final, preciso escrever uma autoavaliação sobre meu desempenho? Não quero deixar essa parte em branco por engano.",relatorio_avaliacao,llm
+Modelo de relatório?,relatorio_avaliacao,llm
+Como preencher relatório?,relatorio_avaliacao,llm
+Relatório final do estágio,relatorio_avaliacao,llm
+Entrega dos relatórios,relatorio_avaliacao,llm
+Prazo do relatório?,relatorio_avaliacao,llm
+Diário de atividades,relatorio_avaliacao,llm
+Registro das atividades,relatorio_avaliacao,llm
+Avaliação do estágio,relatorio_avaliacao,llm
+Critérios de avaliação?,relatorio_avaliacao,llm
+Nota do estágio,relatorio_avaliacao,llm
+Autoavaliação do estágio,relatorio_avaliacao,llm
+Conclusão do estágio,relatorio_avaliacao,llm
+Como concluir relatório?,relatorio_avaliacao,llm
+Aprovação do relatório,relatorio_avaliacao,llm
+Você poderia me informar como faço para solicitar a bolsa permanência da universidade?,fora_dominio,llm
+"Por gentileza, onde consulto a carga horária das disciplinas do meu curso?",fora_dominio,llm
+Como faço para escolher um professor orientador para o meu TCC?,fora_dominio,llm
+Você poderia me explicar como devo entregar o relatório da minha pesquisa de iniciação científica?,fora_dominio,llm
+"Por favor, quais documentos são necessários para participar do programa de intercâmbio?",fora_dominio,llm
+A universidade tem convênios com instituições estrangeiras para intercâmbio acadêmico?,fora_dominio,llm
+Onde posso solicitar uma declaração de matrícula com assinatura digital?,fora_dominio,llm
+Como faço para pedir revisão da nota de uma prova?,fora_dominio,llm
+Você poderia me informar se há vagas abertas para monitoria nas disciplinas?,fora_dominio,llm
+Existe algum auxílio-transporte para estudantes que precisam se deslocar até o campus?,fora_dominio,llm
+Você poderia me indicar como marcar uma consulta com um clínico geral?,fora_dominio,llm
+"Por favor, como faço para renovar a receita de um medicamento?",fora_dominio,llm
+Você sabe me dizer como posso recuperar a senha do meu Wi-Fi?,fora_dominio,llm
+Como faço para emitir a segunda via da minha conta de luz?,fora_dominio,llm
+Você poderia me explicar como declarar o imposto de renda pela primeira vez?,fora_dominio,llm
+"Por gentileza, onde encontro o horário de funcionamento da agência dos Correios mais próxima?",fora_dominio,llm
+Qual é a melhor forma de remover uma mancha de café de uma camisa branca?,fora_dominio,llm
+Você poderia me recomendar uma receita simples para o jantar?,fora_dominio,llm
+Como faço para cancelar uma assinatura de streaming?,fora_dominio,llm
+"Por favor, você sabe quais documentos preciso levar para renovar minha carteira de motorista?",fora_dominio,llm
+Como faço pra renovar minha matrícula pelo portal?,fora_dominio,llm
+Tem bolsa permanência pra quem tá com renda baixa?,fora_dominio,llm
+Onde vejo o valor da mensalidade desse semestre?,fora_dominio,llm
+Como peço meu histórico escolar?,fora_dominio,llm
+A biblioteca abre no sábado?,fora_dominio,llm
+Dá pra mudar de turma depois que começou o semestre?,fora_dominio,llm
+Quem pode ser meu orientador de TCC?,fora_dominio,llm
+Como faço pra participar de um projeto de iniciação científica?,fora_dominio,llm
+Quais documentos preciso pro intercâmbio da faculdade?,fora_dominio,llm
+"Perdi minha carteirinha de estudante, como peço outra?",fora_dominio,llm
+Alguém sabe uma receita fácil de macarrão?,fora_dominio,llm
+Como cancelo a assinatura daquele app de música?,fora_dominio,llm
+"Meu contrato de aluguel vence mês que vem, como faço um aditivo?",fora_dominio,llm
+Qual seguro saúde vale mais a pena?,fora_dominio,llm
+Como recupero a senha do meu banco?,fora_dominio,llm
+"Meu celular caiu na água, tem conserto?",fora_dominio,llm
+Que horas passa o próximo ônibus pro centro?,fora_dominio,llm
+Como tiro mancha de café da roupa?,fora_dominio,llm
+Onde posso adotar um gato?,fora_dominio,llm
+Tem algum filme bom pra ver hoje?,fora_dominio,llm
+como faço pra trancar uma matéria que ficou dificil,fora_dominio,llm
+onde vejo o resultado da minha bolsa permanencia,fora_dominio,llm
+qual o prazo pra entregar o tcc esse semestre,fora_dominio,llm
+como me inscrevo na monitoria de calculo,fora_dominio,llm
+perdi minha carteirinha da biblioteca como peço outra,fora_dominio,llm
+tem algum auxilio pra comprar livros da faculdade,fora_dominio,llm
+como faço pra aproveitar materias de outra universidade,fora_dominio,llm
+quando abre a inscrição pro curso de idiomas,fora_dominio,llm
+preciso atualizar meu cadastro no portal do aluno onde faço,fora_dominio,llm
+como peço revisão da nota da prova de anatomia,fora_dominio,llm
+meu celular nao carrega mesmo trocando o cabo o que pode ser,fora_dominio,llm
+qual o melhor jeito de tirar mancha de café da roupa,fora_dominio,llm
+como faço pra cancelar uma compra que fiz pela internet,fora_dominio,llm
+meu vizinho faz muito barulho de madrugada o que posso fazer,fora_dominio,llm
+que receita da pra fazer com arroz ovo e tomate,fora_dominio,llm
+como recuperar a senha do meu email pessoal,fora_dominio,llm
+meu cachorro ta coçando muito qual pode ser o motivo,fora_dominio,llm
+qual aplicativo é bom pra controlar meus gastos do mês,fora_dominio,llm
+como tirar cheiro de mofo do guarda roupa,fora_dominio,llm
+meu onibus atrasou muito tem como pedir reembolso,fora_dominio,llm
+"Preciso resolver minha matrícula hoje, mas o sistema não reconhece as disciplinas que escolhi. Com quem falo?",fora_dominio,llm
+Estou tentando conseguir uma bolsa de iniciação científica e não sei quais documentos preciso enviar. O prazo termina amanhã.,fora_dominio,llm
+Como faço para validar minhas horas complementares? Já participei de vários eventos e preciso entregar os certificados.,fora_dominio,llm
+"Meu TCC aparece como pendente no portal, mas eu enviei o arquivo ontem. Dá para verificar isso com a coordenação?",fora_dominio,llm
+Perdi o prazo para pedir revisão da nota e estou muito preocupada. Existe algum recurso para contestar a avaliação?,fora_dominio,llm
+Preciso de uma declaração de vínculo com a universidade ainda hoje para apresentar no consulado. Onde consigo?,fora_dominio,llm
+Minha carteirinha estudantil parou de funcionar na biblioteca e tenho prova amanhã. Como solicito uma segunda via?,fora_dominio,llm
+"Quero mudar de curso, mas não sei se ainda dá tempo de pedir transferência interna neste semestre. Qual é o procedimento?",fora_dominio,llm
+A sala da minha aula foi alterada e não consigo encontrar a informação atualizada. Onde consulto o horário correto?,fora_dominio,llm
+Fui selecionada para monitoria e tenho dúvidas sobre o pagamento da bolsa e o registro das horas. Qual setor pode me orientar?,fora_dominio,llm
+Meu ônibus foi cancelado e preciso chegar ao aeroporto antes do embarque. Como vejo se ainda há outro horário disponível?,fora_dominio,llm
+"Estou com febre e dor no corpo desde ontem, mas tenho uma prova hoje. O que posso fazer para melhorar rápido?",fora_dominio,llm
+"Meu celular caiu na água e não liga mais, e preciso recuperar uns arquivos importantes. Tem algum jeito de tentar salvar?",fora_dominio,llm
+A conta de luz veio muito mais alta neste mês e não sei se houve erro na leitura. Como posso contestar a cobrança?,fora_dominio,llm
+Estou sem espaço no notebook e tenho um trabalho para entregar amanhã. Qual é a forma mais rápida de liberar memória?,fora_dominio,llm
+"Meu cartão foi recusado no supermercado, embora eu achasse que tinha saldo. Como verifico se houve algum bloqueio?",fora_dominio,llm
+A máquina de lavar parou no meio do ciclo e a roupa ficou presa dentro. Como faço para destravar sem estragar?,fora_dominio,llm
+Perdi as chaves de casa e meu colega de apartamento não atende. O que devo fazer agora?,fora_dominio,llm
+"A encomenda que comprei aparece como entregue, mas não chegou aqui. Como peço uma investigação à transportadora?",fora_dominio,llm
+Meu voo foi adiado várias horas e vou perder a conexão. Com quem falo para tentar remarcar a viagem?,fora_dominio,llm
+Matrícula em disciplinas,fora_dominio,llm
+Bolsa permanência,fora_dominio,llm
+Auxílio alimentação,fora_dominio,llm
+Convênio médico,fora_dominio,llm
+Termo de matrícula,fora_dominio,llm
+Assinatura digital,fora_dominio,llm
+Carga horária curricular,fora_dominio,llm
+Orientador de TCC,fora_dominio,llm
+Relatório de pesquisa,fora_dominio,llm
+Avaliação das disciplinas,fora_dominio,llm
+Seguro do carro,fora_dominio,llm
+Passagem de ônibus,fora_dominio,llm
+Conta de luz,fora_dominio,llm
+Receita de bolo,fora_dominio,llm
+Consulta médica,fora_dominio,llm
+Aluguel atrasado,fora_dominio,llm
+Previsão do tempo,fora_dominio,llm
+Conserto do celular,fora_dominio,llm
+Senha do banco,fora_dominio,llm
+Pedido de pizza,fora_dominio,llm
+"Olá, que bom poder conversar com você por aqui, não é?",chitchat,llm
+Não é uma alegria começar a conversa com um cumprimento tão simpático?,chitchat,llm
+Muito obrigado pela atenção gentil; não foi uma ajuda atenciosa?,chitchat,llm
+Não é melhor encerrar a conversa desejando a você um ótimo dia?,chitchat,llm
+"Posso dizer que gostei bastante do seu jeito atencioso, não posso?",chitchat,llm
+"Que pena quando uma conversa não funciona como esperado, não é mesmo?",chitchat,llm
+Não é curioso como,chitchat,llm
+"Oi, tudo bem?",chitchat,llm
+Bom diaa!,chitchat,llm
+Valeu pela ajuda 😊,chitchat,llm
+"Obrigada, viu!",chitchat,llm
+"Falou, até mais!",chitchat,llm
+Tchauu 👋,chitchat,llm
+Vc é muito gente boa kkk,chitchat,llm
+Esse bot é bem simpático,chitchat,llm
+"Aff, hoje tá tudo dando errado 😩",chitchat,llm
+"Poxa, que demora...",chitchat,llm
+Kkkkk adorei isso,chitchat,llm
+"Haha, boa!",chitchat,llm
+"Ok, combinado",chitchat,llm
+"Entendi, fechou",chitchat,llm
+Você salvou meu dia!,chitchat,llm
+oii bom diaa,chitchat,llm
+eai bot td bem,chitchat,llm
+obrigadoo pela ajuda,chitchat,llm
+valeu mesmo vc é d+,chitchat,llm
+até mais tchauzinho,chitchat,llm
+falou bot até depois,chitchat,llm
+vc é mto simpatico,chitchat,llm
+adorei conversa com vc,chitchat,llm
+aff hoje ta tudo dando errado,chitchat,llm
+esse app ta meio lentoo,chitchat,llm
+kkkkkk muito bom,chitchat,llm
+haha vc me fez rir,chitchat,llm
+ok blz entendi,chitchat,llm
+saquei agora vlww,chitchat,llm
+"Oi! Cheguei correndo, minha aula começa em cinco minutos e já estou nervosa.",chitchat,llm
+Bom dia! Estou tentando terminar esse trabalho antes do prazo e mal consigo pensar direito.,chitchat,llm
+"Valeu mesmo pela ajuda, eu estava quase entrando em pânico com a entrega de hoje.",chitchat,llm
+Obrigada! Já estou um pouco mais tranquila para encarar a apresentação.,chitchat,llm
+Até mais! Preciso correr para a biblioteca antes que feche.,chitchat,llm
+"Você é muito paciente comigo, ainda mais com esse meu desespero de véspera de prova.",chitchat,llm
+"Aff, que dia corrido; passei a tarde inteira estudando e ainda me sinto atrasada.",chitchat,llm
+"Você é meu único colega acordado nessa madrugada, né? Estou aqui tentando revisar tudo antes da prova.",chitchat,llm
+"Hahaha, estou rindo de nervoso porque a lista de exercícios parece não acabar nunca.",chitchat,llm
+"Ok, combinado. Vou respirar fundo e voltar para os estudos.",chitchat,llm
+"Entendi, obrigada; agora vou tentar organizar minhas anotações sem surtar.",chitchat,llm
+"Oi, desculpa aparecer tão apressada; tenho seminário daqui a pouco e estou uma",chitchat,llm
+"Olá, chatbot!",chitchat,llm
+Bom dia!,chitchat,llm
+Agradeço!,chitchat,llm
+Valeu mesmo!,chitchat,llm
+Até mais!,chitchat,llm
+"Tchau, bot!",chitchat,llm
+Você é incrível!,chitchat,llm
+Adoro conversar contigo!,chitchat,llm
+Que resposta ruim.,chitchat,llm
+Você me confundiu.,chitchat,llm
+"Hahaha, boa!",chitchat,llm
+Kkkkk!,chitchat,llm
+"Ok, combinado.",chitchat,llm
+Entendi agora.,chitchat,llm
+"Oi, qual é o prazo pra pedir trancamento neste semestre?",fora_dominio,llm
+Consigo fazer a rematrícula mesmo com documentos pendentes?,fora_dominio,llm
+"Meu historico ainda nao mostra as notas do semestre passado, podem verificar?",fora_dominio,llm
+Preciso do termo de trancamento ou faço a solicitação direto pelo portal?,fora_dominio,llm
+A declaração de matrícula precisa da assinatura da secretaria?,fora_dominio,llm
+Quantas horas de atividades complementares faltam pra eu completar o curso?,fora_dominio,llm
+"Enviei o relatorio das atividades complementares, como acompanho a validação?",fora_dominio,llm
+"Meu orientador já aprovou o plano de estudos, falta algum procedimento com a secretaria?",fora_dominio,llm
+Tem algum auxilio pra quem precisa reduzir a carga horária neste semestre?,fora_dominio,llm
+Qual o valor pra solicitar uma segunda via do histórico escolar?,fora_dominio,llm
+Minha bolsa depende de eu concluir a rematrícula até uma data específica?,fora_dominio,llm
+Dá pra aproveitar as disciplinas que fiz em outra faculdade? Quais documentos preciso?,fora_dominio,llm
+"gente, qdo sai o resultado do pedido de aproveitamento de materia?",fora_dominio,llm
+Já posso solicitar a colação de grau ou ainda falta cumprir algum requisito?,fora_dominio,llm
+Qual é o cardápio do RU hoje? Tem opção vegetariana?,fora_dominio,llm
+O restaurante abre aos sábados? Quais são os horários de funcionamento?,fora_dominio,llm
+Qual o valor do almoço pra quem não tem isenção?,fora_dominio,llm
+A bolsa alimentação dá direito a refeições gratuitas ou tem algum valor por refeição?,fora_dominio,llm
+Como faço recarga de créditos pelo celular?,fora_dominio,llm
+O saldo do cartão fica seguro se eu perder o celular?,fora_dominio,llm
+Quais documentos preciso levar para fazer meu cadastro no RU?,fora_dominio,llm
+O termo de cadastro precisa de assinatura presencial ou posso assinar digitalmente?,fora_dominio,llm
+Qual é o prazo para pedir isenção das refeições?,fora_dominio,llm
+O RU tem convênio com algum app de pagamento?,fora_dominio,llm
+O RU fica aberto quantas horas por dia durante as férias?,fora_dominio,llm
+Onde posso consultar o relatório dos meus créditos e das refeições consumidas?,fora_dominio,llm
+Tem algum orientador que possa explicar como funciona o auxílio alimentação?,fora_dominio,llm
+"oi, fiz a recarga hj mas os creditos ainda nao cairam, demora msm? Aff, preciso almocar logo",fora_dominio,llm
+Como confiro se meu cadastro foi aprovado? O cardapio de amanha ja saiu?,fora_dominio,llm
+"Oi, queria saber qual é o valor da bolsa do auxílio permanência e quando sai o resultado.",fora_dominio,llm
+Como faço pra pedir auxílio alimentação? Precisa enviar documentos pelo sistema?,fora_dominio,llm
+"meu auxilio moradia foi aprovado mas ainda nao caiu, tem previsao de pagamento?",fora_dominio,llm
+O termo de compromisso do auxílio permanência precisa da assinatura de algum responsável?,fora_dominio,llm
+Perdi o prazo do edital de auxílio alimentação. Existe alguma possibilidade de enviar a inscrição atrasada?,fora_dominio,llm
+Quais documentos servem como comprovante de renda para solicitar auxílio moradia?,fora_dominio,llm
+"boa tarde, onde vejo o resultado do edital? nao achei no site",fora_dominio,llm
+Posso apresentar recurso se meu pedido de auxílio permanência for indeferido? Qual é o prazo?,fora_dominio,llm
+A bolsa alimentação é depositada junto com o auxílio permanência ou em pagamentos separados?,fora_dominio,llm
+Tem algum modelo de relatório para comprovar que continuo precisando do auxílio?,fora_dominio,llm
+"gente, o pagamento desse mes ainda nao apareceu pra vcs tbm?",fora_dominio,llm
+Preciso renovar o auxílio moradia neste semestre? A assinatura pode ser feita digitalmente?,fora_dominio,llm
+Meu cadastro está com o nome do orientador acadêmico antigo. Isso afeta a análise do auxílio?,fora_dominio,llm
+O valor do auxílio alimentação mudou neste ano? Onde encontro essa informação?,fora_dominio,llm
+Como faço para escolher um orientador para o TCC e saber se ele tem disponibilidade?,fora_dominio,llm
+Qual é o prazo para entregar o projeto de TCC neste semestre?,fora_dominio,llm
+Tem algum modelo de formatação do TCC conforme as normas da universidade?,fora_dominio,llm
+A banca pode ter um professor de outra instituição ou precisa ser do curso?,fora_dominio,llm
+Onde faço o depósito da versão final depois das correções da banca?,fora_dominio,llm
+O termo de indicação do orientador precisa da assinatura dele e da minha?,fora_dominio,llm
+qual o prazo pra enviar os documentos da banca? to meio perdido no sistema,fora_dominio,llm
+As horas de orientação entram no relatório do TCC ou só preciso registrar as reuniões?,fora_dominio,llm
+O convênio com outra universidade interfere na escolha de alguém de lá pra banca?,fora_dominio,llm
+Existe bolsa ou auxílio para estudante que está desenvolvendo pesquisa para o TCC?,fora_dominio,llm
+"meu orientador ainda nao confirmou a data da defesa, tem prazo pra marcar?",fora_dominio,llm
+"Qual seguro de formatação eu uso? quer dizer, qual norma vale pro TCC, ABNT ou modelo do curso?",fora_dominio,llm
+"A banca pediu ajustes e não entendi como enviar a versão final, alguém pode me orientar?",fora_dominio,llm
+quanto tempo tenho pra entregar o relatorio final do tcc depois da defesa?,fora_dominio,llm
+Quando sai o próximo edital de iniciação científica e quais são os documentos necessários para se inscrever?,fora_dominio,llm
+"Oi, a bolsa de monitoria tem valor fixo ou muda conforme o curso?",fora_dominio,llm
+Preciso entregar relatório parcial da iniciação científica? Qual é o prazo?,fora_dominio,llm
+onde vejo o edital de ic? nao achei no site da universidade,fora_dominio,llm
+O termo de compromisso da bolsa precisa da assinatura do orientador e do estudante?,fora_dominio,llm
+Quantas horas por semana devo dedicar à monitoria e como registro a carga horária?,fora_dominio,llm
+Quem recebe auxílio de iniciação científica também pode concorrer a outra bolsa da universidade?,fora_dominio,llm
+Meu orientador ainda não assinou o relatório final. Posso enviar depois do prazo?,fora_dominio,llm
+tem certificado pra quem foi monitor? como faço pra pedir?,fora_dominio,llm
+O edital informa se há convênio com alguma agência de fomento para financiar as bolsas de pesquisa?,fora_dominio,llm
+Qual é o valor atual da bolsa de iniciação científica e em que dia costuma ser pago?,fora_dominio,llm
+"esqueci minha senha e nao consigo terminar a inscriçao no edital de monitoria, e agora?",fora_dominio,llm
+O seguro da universidade cobre atividades de pesquisa em laboratório para estudantes bolsistas?,fora_dominio,llm
+As horas de monitoria aparecem no certificado? Preciso solicitar o documento ou ele é emitido automaticamente?,fora_dominio,llm
+Como faço o cômputo das horas de um curso de extensão feito em outra universidade?,fora_dominio,llm
+O certificado precisa ter assinatura digital para ser aceito na validação das atividades complementares?,fora_dominio,llm
+A atividade de extensão tem carga horária mínima para contar na curricularização?,fora_dominio,llm
+"oi, fiz umas horas como voluntaria num evento da facul, como peço a validaçao?",fora_dominio,llm
+Qual é o prazo para enviar os documentos das atividades complementares deste semestre?,fora_dominio,llm
+Preciso entregar relatório junto com o certificado de participação no projeto de extensão?,fora_dominio,llm
+Meu orientador do projeto pode assinar a declaração das horas ou precisa ser a coordenação?,fora_dominio,llm
+A universidade tem convênio com instituições que oferecem atividades válidas para computar horas?,fora_dominio,llm
+Tem bolsa ou algum auxílio pra participar dos projetos de extensão? Onde vejo o valor?,fora_dominio,llm
+O termo de participação precisa ter assinatura de todas as pessoas do grupo?,fora_dominio,llm
+"fiz uma palestra online e perdi o certificado, tem como validar as horas com outro documento?",fora_dominio,llm
+quantas horas de extensão preciso cumprir pra curricularização no meu curso?,fora_dominio,llm
+"oi, mandei os documentos semana passada e ainda nao apareceu o computo das horas, sabe o prazo?",fora_dominio,llm
+Posso usar as horas de uma ação comunitária que organizei fora da universidade como atividade complementar?,fora_dominio,llm
+Quando sai o próximo edital de mobilidade para universidades da Europa?,fora_dominio,llm
+"Oi, a bolsa do intercambio cobre passagem ou só ajuda nas despesas lá?",fora_dominio,llm
+Qual é o valor do auxílio financeiro para estudar um semestre fora?,fora_dominio,llm
+Preciso enviar o certificado de proficiência em inglês junto com os documentos?,fora_dominio,llm
+tem como aceitar resultado do duolingo no edital? nao achei essa info,fora_dominio,llm
+Como funciona a equivalência das disciplinas cursadas na universidade de destino?,fora_dominio,llm
+O termo de mobilidade precisa da assinatura do coordenador antes de eu me inscrever?,fora_dominio,llm
+Qual é a carga horária mínima de disciplinas que preciso cumprir no intercâmbio?,fora_dominio,llm
+"meu seguro viagem vence antes do fim do semestre, isso pode dar problema?",fora_dominio,llm
+Até que prazo posso alterar o plano de estudos depois de chegar na universidade parceira?,fora_dominio,llm
+A universidade tem convênio com instituições no Chile?,fora_dominio,llm
+preciso mandar relatorio das materias quando voltar ou só o historico?,fora_dominio,llm
+Quem pode ser meu orientador acadêmico durante o período de mobilidade?,fora_dominio,llm
+Já saiu o resultado do edital?,fora_dominio,llm
+Quais documentos preciso traduzir para solicitar o auxílio financeiro?,fora_dominio,llm
+da pra pedir equivalencia de uma materia que nao tem o mesmo nome?,fora_dominio,llm
+Meu e-mail institucional ainda não foi ativado; qual é o prazo para liberar o acesso?,fora_dominio,llm
+"oi, o wifi da universidade conecta mas fica sem internet, tem como resolver?",fora_dominio,llm
+Esqueci a senha do sistema acadêmico. Posso redefinir sem ir presencialmente?,fora_dominio,llm
+"No Moodle aparece que não estou matriculado na disciplina, mas minha matrícula está confirmada. O que faço?",fora_dominio,llm
+Qual é o valor da licença do pacote de programas de edição para estudantes?,fora_dominio,llm
+É seguro instalar o antivírus que está disponível no portal de TI?,fora_dominio,llm
+Onde encontro o termo de uso das licenças de software da universidade?,fora_dominio,llm
+Como vejo a carga horária total de uma disciplina no AVA?,fora_dominio,llm
+"preciso baixar um relatório das minhas notas no moodle, onde fica essa opção?",fora_dominio,llm
+Meu orientador não consegue acessar a página da disciplina no AVA. Como posso pedir permissão para ele?,fora_dominio,llm
+quantas horas demora pra senha nova funcionar no sistema academico?,fora_dominio,llm
+Quais documentos preciso apresentar para recuperar o acesso ao e-mail institucional?,fora_dominio,llm
+Como adiciono minha assinatura institucional no Outlook?,fora_dominio,llm
+A universidade tem convênio que permita usar o editor de texto pago sem custo?,fora_dominio,llm
+"Oi, quando sai o calendário das provas finais desse semestre?",fora_dominio,llm
+a prova de calculo foi remarcada? nao achei a nova data,fora_dominio,llm
+Qual é o prazo para solicitar revisão da nota da primeira prova?,fora_dominio,llm
+Quantas horas de falta posso ter antes de ficar abaixo da frequência mínima?,fora_dominio,llm
+Vai ter prova substitutiva pra quem faltou por motivo de saúde?,fora_dominio,llm
+O recesso de julho começa em que dia?,fora_dominio,llm
+Minha disciplina tem carga horária de 60 horas; qual é a frequência mínima exigida?,fora_dominio,llm
+O valor mínimo da nota para fazer a substitutiva é o mesmo em todas as matérias?,fora_dominio,llm
+Preciso da assinatura de algum professor para pedir revisão de nota ou basta enviar a solicitação pelo sistema?,fora_dominio,llm
+Meu orientador acadêmico pode confirmar se a prova substitutiva está prevista no calendário?,fora_dominio,llm
+Que documentos preciso apresentar para justificar falta no dia da avaliação?,fora_dominio,llm
+O termo para pedir revisão da nota vence quantos dias depois da divulgação do resultado?,fora_dominio,llm
+tem prova essa sexta ou mudou? to confuso com o calendario,fora_dominio,llm
+As aulas voltam logo depois do recesso ou tem mais alguns dias sem aula?,fora_dominio,llm
+Quais linhas de ônibus passam pelo campus e quais são os horários de manhã?,fora_dominio,llm
+"Oi, qual o valor do passe estudantil pra quem vem todo dia?",fora_dominio,llm
+Até que prazo posso pedir o passe estudantil deste semestre?,fora_dominio,llm
+Quais documentos preciso levar para solicitar uma vaga no estacionamento?,fora_dominio,llm
+O seguro cobre bicicleta guardada no bicicletário da universidade?,fora_dominio,llm
+Tem algum ônibus acessível para cadeirantes saindo do terminal?,fora_dominio,llm
+Até que horas fica aberto o estacionamento do campus?,fora_dominio,llm
+Precisa assinar algum termo para usar o bicicletário?,fora_dominio,llm
+Existe auxílio para transporte para estudantes que moram longe?,fora_dominio,llm
+Onde posso enviar um relatório sobre os atrasos da linha que atende o campus?,fora_dominio,llm
+A solicitação de vaga acessível no estacionamento precisa de assinatura médica?,fora_dominio,llm
+alguem sabe se a linha 302 passa perto do portao principal?,fora_dominio,llm
+A universidade tem convênio com a empresa de ônibus pra dar desconto na passagem?,fora_dominio,llm
+Tem bicicletário coberto?,fora_dominio,llm
+Como faço para reservar a quadra de vôlei? Qual é o prazo para pedir um horário?,fora_dominio,llm
+"oi, qual o valor mensal da academia da universidade?",fora_dominio,llm
+Quais documentos preciso levar para me inscrever na atlética?,fora_dominio,llm
+O seguro dos participantes está incluído na inscrição da corrida do campus?,fora_dominio,llm
+Qual é a carga horária de funcionamento da academia durante as férias?,fora_dominio,llm
+Tem como reservar a quadra por duas horas no sábado?,fora_dominio,llm
+A atlética oferece bolsa para quem participa dos treinos e dos campeonatos?,fora_dominio,llm
+Precisa de assinatura em algum termo para participar do torneio de futsal?,fora_dominio,llm
+O professor orientador da equipe de natação já foi divulgado?,fora_dominio,llm
+A universidade tem convênio com alguma academia perto do campus?,fora_dominio,llm
+Quem vai jogar o campeonato de volei hj? ainda da pra se inscrever?,fora_dominio,llm
+Existe auxílio para a equipe viajar para os jogos universitários?,fora_dominio,llm
+A organização do evento pede algum relatório depois da corrida?,fora_dominio,llm
+"gente, onde vai ser o aulão de zumba? perdi o anuncio rs",fora_dominio,llm
+Qual é o prazo para devolver os livros emprestados?,fora_dominio,llm
+"Oi, posso renovar o livro pelo site ou tenho que ir no balcão?",fora_dominio,llm
+Qual o valor da multa por atraso? Tem como pagar por Pix?,fora_dominio,llm
+a biblioteca abre sabado? nao achei os horarios atualizados,fora_dominio,llm
+Posso entrar com minha bolsa nas salas de estudo?,fora_dominio,llm
+A sala de estudo em grupo precisa de reserva? Dá para reservar por quantas horas?,fora_dominio,llm
+O termo de empréstimo precisa de assinatura ou basta confirmar no sistema?,fora_dominio,llm
+"perdi o livro, qual o procedimento e tem algum seguro ou taxa pra isso?",fora_dominio,llm
+A carga horária de funcionamento muda durante as férias?,fora_dominio,llm
+Tem algum relatório ou tutorial explicando como acessar as bases digitais de casa?,fora_dominio,llm
+Meu orientador pode solicitar acesso a uma base digital em meu nome?,fora_dominio,llm
+A universidade tem convênio com outras bibliotecas para pegar livros emprestados?,fora_dominio,llm
+Quais documentos preciso levar para fazer meu cadastro na biblioteca?,fora_dominio,llm
+"oi, o prazo pra devolver renova automaticamente ou preciso pedir?",fora_dominio,llm

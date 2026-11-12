@@ -2,6 +2,46 @@
 
 **Inteligência Artificial · Graduação · FACOM/UFMS · Prof. Bruno Nogueira**
 
+## Nosso grupo: "Estagi", o chatbot de Estágio da UFMS
+
+**Integrantes:** Fernanda Brittes, Willian e Gabriel · **Tema:** Estágio
+
+### Decisões do grupo
+
+* **8 intenções** (`grupo.yaml`): `tipos_estagio`, `vagas_convenio`,
+  `termo_compromisso`, `carga_horaria`, `bolsa_auxilio`, `seguro`,
+  `orientador_supervisor`, `relatorio_avaliacao`. Elas seguem os capítulos do
+  Regulamento de Estágio da UFMS (Resolução 706-COGRAD/2022) e da Lei 11.788/2008.
+* **Base de conhecimento** (`documentos/`, fontes em `documentos/FONTES.md`): 4
+  documentos oficiais da UFMS (PDF) e 9 resumos escritos a partir deles.
+* **Dados de treino**: frases do LLM revisadas (`gpt-6-luna`), negativos difíceis
+  dos temas dos outros grupos, amostra da MASSIVE e frases humanas do nosso
+  formulário. **Teste**: só frases humanas do formulário.
+* **Classificadores**: escolhidos por validação cruzada (5 folds) entre 4 algoritmos
+  e 3 representações; detalhes em `notebooks/01_trabalho_grupo.ipynb`.
+* **Aprofundamento**: A1, cascata × classificador único.
+
+### Como reproduzir
+
+```bash
+python -m venv .venv && .venv\Scripts\activate      # Linux/macOS: source .venv/bin/activate
+pip install -r requirements.txt
+copy .env.exemplo .env                               # e cole a chave do grupo
+# (opcional, gasta créditos) regerar frases do LLM:
+#   python scripts/gerar_dados_llm.py --n 14
+#   python scripts/gerar_dados_llm.py --rotulos fora_dominio --n 20
+#   python scripts/gerar_dados_llm.py --rotulos chitchat --n 14
+#   python scripts/gerar_negativos_dificeis.py --n 14
+python scripts/baixar_massive.py
+python scripts/dividir_formulario.py dados/formulario_rotulado.csv   # respostas humanas rotuladas
+python scripts/montar_treino.py                      # gera dados/treino.csv e dados/teste.csv
+jupyter nbconvert --to notebook --execute --inplace notebooks/01_trabalho_grupo.ipynb
+python scripts/avaliar.py
+python scripts/verificar_entrega.py
+```
+
+---
+
 Código base do trabalho em grupo. Vocês vão construir um chatbot para um tema do
 cotidiano universitário. A cada mensagem, **dois classificadores treinados pelo
 grupo** decidem **se** o bot deve responder e **sobre o quê**; depois, o bot

@@ -65,8 +65,9 @@ def main(argv=None) -> int:
     chit = df[df["massive_intencao"].isin(CHITCHAT)].copy()
     fora = df[~df["massive_intencao"].isin(CHITCHAT)].copy()
     frac = min(1.0, args.max_fora / max(len(fora), 1))
-    fora = fora.groupby("massive_intencao", group_keys=False).apply(
-        lambda g: g.sample(frac=frac, random_state=args.semente))
+    # groupby().sample mantém a coluna de grupo (o .apply do pandas >= 2.2 a removia)
+    fora = fora.groupby("massive_intencao", group_keys=False).sample(
+        frac=frac, random_state=args.semente)
 
     destino = RAIZ / "dados" / "geral"
     destino.mkdir(parents=True, exist_ok=True)

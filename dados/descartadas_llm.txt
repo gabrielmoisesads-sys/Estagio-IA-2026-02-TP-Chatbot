@@ -1,0 +1,18 @@
+# Frases geradas pelo LLM (dados/gerados_llm.csv) DESCARTADAS na revisão manual.
+# Uma por linha, texto exato. Motivo entre parênteses no comentário acima de cada grupo.
+# (situação estranha / pouco realista)
+Estou cursando o ensino médio junto com a faculdade. Para estagiar, vale minha condição de universitário?
+# (ambígua demais: sem contexto, nem uma pessoa sabe o assunto)
+Qual a diferença?
+Assinatura digital
+Carga horária curricular
+A carga horária de funcionamento muda durante as férias?
+# (chitchat artificial, com estrutura de pergunta retórica que nenhum aluno escreveria)
+Não é uma alegria começar a conversa com um cumprimento tão simpático?
+Muito obrigado pela atenção gentil; não foi uma ajuda atenciosa?
+Não é melhor encerrar a conversa desejando a você um ótimo dia?
+Posso dizer que gostei bastante do seu jeito atencioso, não posso?
+Que pena quando uma conversa não funciona como esperado, não é mesmo?
+# (frase cortada pelo limite de tokens)
+Não é curioso como
+Oi, desculpa aparecer tão apressada; tenho seminário daqui a pouco e estou uma

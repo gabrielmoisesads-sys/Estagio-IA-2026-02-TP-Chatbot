@@ -1,1 +1,76 @@
 texto,intencao,origem
+Oi,chitchat,humano
+Opa,chitchat,humano
+Ola chat,chitchat,humano
+Oi chat,chitchat,humano
+oie,chitchat,humano
+eae,chitchat,humano
+Olá, tudo bem?,chitchat,humano
+Chat,chitchat,humano
+Ok, muito obrigado,chitchat,humano
+Valeu,chitchat,humano
+Vlw,chitchat,humano
+Tmj,chitchat,humano
+ok,chitchat,humano
+mds,chitchat,humano
+Muito obrigada!,chitchat,humano
+Obrigado,chitchat,humano
+blz,chitchat,humano
+Obrigada,chitchat,humano
+obg,chitchat,humano
+Não foi isso que eu pedi,chitchat,humano
+Poderia me responder de outra forma,chitchat,humano
+Tem certeza disso?,chitchat,humano
+
+Qual que é a diferença entre não obrigatório e obrigatório?,tipos_estagio,humano
+Chat, pode me explicar sobre o estágio obrigatório e o não obrigatório? Quais as diferenças?,tipos_estagio,humano
+Existe alguma diferença entre o estágio obrigatório e não obrigatório?,tipos_estagio,humano
+Chat me de as diferenças de estagio obrigatorio e não obrigatório,tipos_estagio,humano
+Qual seria a diferença entre estagio obrigatório e o convencional,tipos_estagio,humano
+é obrigatorio fazer estagio no meu curso?,tipos_estagio,humano
+Esse curso exige estagio chat?,tipos_estagio,humano
+O (curso) possui estágio obrigatório?,tipos_estagio,humano
+(curso) tem estagio obrigatorio?,chitchat,humano
+Chat, gostaria de saber se meu curso exige estágio obrigatório,tipos_estagio,humano
+Preciso de estágio obrigatório no (curso),tipos_estagio,humano
+Gostaria de saber é obrigatório fazer estágio em (curso)
+
+quantas horas preciso pra concluir o estagio?,carga_horaria,humano
+Chat, quantas horas eu preciso fazer no estágio?,carga_horaria,humano
+Existe um limite de horas por semana no estágio?,carga_horaria,humano
+posso fazer hora extra?,carga_horaria,humano
+Quantas horas posso fazer de estágio no dia e na semana,carga_horaria,humano
+
+
+orientador_supervisor,humano
+bolsa_auxilio,humano
+vagas_convenio,humano
+
+Chat, me explica como se eu fosse uma criança de 5 anos sobre a tce,tce,humano
+Chat me explique tudo sobre tce,tce,humano
+oq é tce?,tce,humano
+O que tenho que fazer sobre esse termo,tce,humano
+Existe algum termo de compromisso? Como funciona?,tce,humano
+
+Como eu contrato um seguro pra estagio chat,seguro,humano
+Existe algum seguro do estagio? E quem que contrata?,seguro,humano
+
+Chat, me ajuda a preencher esse relatório pfv,relatorio_avaliacao,humano
+Chat me ajida com meu relatorio final,relatorio_avaliacao,humano
+Como funciona o relatório final?,relatorio_avaliacao,humano
+Até quando posso entregar o relatório final ?,relatorio_avaliacao,humano
+
+quais materias sao obrigatorias no meu curso?,fora_dominio,humano
+como faço seguro de vida?,fora_dominio,humano
+Poderia me ajudar a escolher um jogo?,fora_dominio,humano
+Qual filme é bom para assistir?,fora_dominio,humano
+Chat quero falar sobre o jogo de ontem,fora_dominio,humano
+Consegue me falar um bom restaurante?,fora_dominio,humano
+Chat, me fala uma receita de brownie que não tem erro,fora_dominio,humano
+Me indica um restaurante bom e perto daqui,fora_dominio,humano
+Como faço horas complementares?,fora_dominio,humano
+Como funciona os termos de uso ?,fora_dominio,humano
+Chat vc me ajuda com relatorio academico?,fora_dominio,humano
+Quabtas horas complementares preciso em (curso)?,fora_dominio,humano
+qual professor da a materia X?,fora_dominio,humano
+como faço pra conseguir bolsa permanencia?,fora_dominio,humano

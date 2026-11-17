@@ -1,76 +1,190 @@
-texto,intencao,origem
 Oi,chitchat,humano
 Opa,chitchat,humano
 Ola chat,chitchat,humano
 Oi chat,chitchat,humano
 oie,chitchat,humano
 eae,chitchat,humano
-Olá, tudo bem?,chitchat,humano
+"Olá, tudo bem?",chitchat,humano
 Chat,chitchat,humano
-Ok, muito obrigado,chitchat,humano
+Salve chat,chitchat,humano
+"Ok, muito obrigado",chitchat,humano
 Valeu,chitchat,humano
 Vlw,chitchat,humano
 Tmj,chitchat,humano
 ok,chitchat,humano
 mds,chitchat,humano
-Muito obrigada!,chitchat,humano
+Muito obrigadaaa,chitchat,humano
 Obrigado,chitchat,humano
 blz,chitchat,humano
 Obrigada,chitchat,humano
 obg,chitchat,humano
+Ok obrigada,chitchat,humano
+Muito obrigado pela resposta,chitchat,humano
+Obrigado pela ajuda,chitchat,humano
 Não foi isso que eu pedi,chitchat,humano
 Poderia me responder de outra forma,chitchat,humano
 Tem certeza disso?,chitchat,humano
-
+Não gostei,chitchat,humano
+Não foi isso que eu perguntei,chitchat,humano
+"Por favor, reveja meu pedido anterior e avalie se está de acordo com o que você entregou",chitchat,humano
+"vc n ta pensando direito chat, pelo menos se esforça",chitchat,humano
 Qual que é a diferença entre não obrigatório e obrigatório?,tipos_estagio,humano
-Chat, pode me explicar sobre o estágio obrigatório e o não obrigatório? Quais as diferenças?,tipos_estagio,humano
+"Chat, pode me explicar sobre o estágio obrigatório e o não obrigatório? Quais as diferenças?",tipos_estagio,humano
 Existe alguma diferença entre o estágio obrigatório e não obrigatório?,tipos_estagio,humano
 Chat me de as diferenças de estagio obrigatorio e não obrigatório,tipos_estagio,humano
 Qual seria a diferença entre estagio obrigatório e o convencional,tipos_estagio,humano
 é obrigatorio fazer estagio no meu curso?,tipos_estagio,humano
 Esse curso exige estagio chat?,tipos_estagio,humano
-O (curso) possui estágio obrigatório?,tipos_estagio,humano
-(curso) tem estagio obrigatorio?,chitchat,humano
-Chat, gostaria de saber se meu curso exige estágio obrigatório,tipos_estagio,humano
-Preciso de estágio obrigatório no (curso),tipos_estagio,humano
-Gostaria de saber é obrigatório fazer estágio em (curso)
-
+O (nome do curso) possui estágio obrigatório?,tipos_estagio,humano
+(nome do curso) tem estagio obrigatorio?,tipos_estagio,humano
+"Chat, gostaria de saber se meu curso exige estágio obrigatório",tipos_estagio,humano
+Preciso de estágio obrigatório no (nome do curso),tipos_estagio,humano
+Gostaria de saber é obrigatório fazer estágio em (nome do curso),tipos_estagio,humano
+O curso (nome do curso) tem q fazer estágio?,tipos_estagio,humano
+Sabe me dizer quais cursos exigem estágios obrigatórios?,tipos_estagio,humano
+Me explique também sobre as regras do estágio obrigatório,tipos_estagio,humano
 quantas horas preciso pra concluir o estagio?,carga_horaria,humano
-Chat, quantas horas eu preciso fazer no estágio?,carga_horaria,humano
+"Chat, quantas horas eu preciso fazer no estágio?",carga_horaria,humano
 Existe um limite de horas por semana no estágio?,carga_horaria,humano
 posso fazer hora extra?,carga_horaria,humano
+"Se eu tiver aula durante o dia, posso combinar outro horario pro estágio?",carga_horaria,humano
+A faculdade pode exigir uma carga horária maior que a da empresa?,carga_horaria,humano
 Quantas horas posso fazer de estágio no dia e na semana,carga_horaria,humano
-
-
-orientador_supervisor,humano
-bolsa_auxilio,humano
-vagas_convenio,humano
-
-Chat, me explica como se eu fosse uma criança de 5 anos sobre a tce,tce,humano
+Quantas horas são necessárias para concluir o estágio no curso (nome do curso),carga_horaria,humano
+Quantas horas máxima estágio,carga_horaria,humano
+Qual o limite de horas chat,carga_horaria,humano
+Qntas horas  por semana é permitido que eu trabalhe no estágio?,carga_horaria,humano
+qual a carga horária diária e semanal eu posso ter no estágio da facul?,carga_horaria,humano
+tem limite de hrs q posso fazer por dia?,carga_horaria,humano
+"chat, sao 6h por dia msm ou depende do estagio?",carga_horaria,humano
+A carga horaria do estágio pode ser alterada durante o contrato?,carga_horaria,humano
+"Chat, oq significa COE?",orientador_supervisor,humano
+Supervisor de estágio faz o que?,orientador_supervisor,humano
+como descubro quem vai ser meu orientador?,orientador_supervisor,humano
+Meu supervisor pode ser qualquer funcionário ou precisa ser da minha área?,orientador_supervisor,humano
+quem q escolhe o professor orientador?,orientador_supervisor,humano
+se meu orientador sair da faculdade oq acontece?,orientador_supervisor,humano
+preciso falar com meu orientador toda semana?,orientador_supervisor,humano
+o supervisor e o orientador sao a msm pessoa?,orientador_supervisor,humano
+"gente, quem assina minha avaliação do estagio?",orientador_supervisor,humano
+posso trocar de supervisor no meio do estagio?,orientador_supervisor,humano
+como faço pra entrar em contato com meu orientador?,orientador_supervisor,humano
+meu chefe na empresa pode ser meu supervisor?,orientador_supervisor,humano
+quem acompanha o aluno durante o estagio?,orientador_supervisor,humano
+se eu tiver problema com a empresa falo com quem??,orientador_supervisor,humano
+O professor orientador precisa acompanhar meu estágio presencialmente?,orientador_supervisor,humano
+Estágio benefícios,bolsa_auxilio,humano
+O estágio X na empresa Y é remunerado de alguma forma?,bolsa_auxilio,humano
+estágio não obrigatório recebe algum pagamento?,bolsa_auxilio,humano
+estagio obrigatorio recebe bolsa tbm?,bolsa_auxilio,humano
+o auxilio transporte é pago junto com a bolsa?,bolsa_auxilio,humano
+se eu faltar desconta do pagamento?,bolsa_auxilio,humano
+Existe um valor minimo pra bolsa de estágio?,bolsa_auxilio,humano
+estagiario recebe vale alimentação??,bolsa_auxilio,humano
+a bolsa cai todo mes ou depende da empresa?,bolsa_auxilio,humano
+posso receber bolsa da facul e do estagio ao msm tempo?,bolsa_auxilio,humano
+quem decide quanto vou receber no estagio?,bolsa_auxilio,humano
+o auxilio transporte é obrigatorio em qualquer estagio?,bolsa_auxilio,humano
+"comecei no meio do mes, vou receber o valor inteiro?",bolsa_auxilio,humano
+tem como receber algum auxilio fazendo estagio obrigatorio?,bolsa_auxilio,humano
+a empresa pode atrasar o pagamento da bolsa?,bolsa_auxilio,humano
+Estágio (nome do curso) como conseguir,vagas_convenio,humano
+Como estagiar,vagas_convenio,humano
+Onde posso encontrar vagas de estágio em (local)?,vagas_convenio,humano
+onde posso encontrar vagas de estágio do meu curso?,vagas_convenio,humano
+onde vcs acham vagas de estagio?,vagas_convenio,humano
+como sei se a empresa tem convenio com a faculdade?,vagas_convenio,humano
+"achei uma vaga mas nao sei se posso fazer por ela, oq faço?",vagas_convenio,humano
+a facul ajuda a encontrar estagio?,vagas_convenio,humano
+qualquer empresa pode contratar estagiario?,vagas_convenio,humano
+tem algum lugar q divulga as vagas?,vagas_convenio,humano
+se a empresa nao tiver convenio da pra fazer mesmo assim?,vagas_convenio,humano
+como faço pra empresa conseguir convenio com a universidade?,vagas_convenio,humano
+posso estagiar numa empresa de outra cidade?,vagas_convenio,humano
+preciso esperar abrir vaga pela faculdade ou posso procurar sozinho?,vagas_convenio,humano
+alguem sabe onde encontro empresas q aceitam estagiarios?,vagas_convenio,humano
+"Chat, me explica como se eu fosse uma criança de 5 anos sobre a tce",tce,humano
 Chat me explique tudo sobre tce,tce,humano
 oq é tce?,tce,humano
-O que tenho que fazer sobre esse termo,tce,humano
 Existe algum termo de compromisso? Como funciona?,tce,humano
-
+como funciona o tce?,tce,humano
+precisa entregar o TCE na faculdade ou a empresa resolve isso?,tce,humano
+O que tenho que fazer sobre esse termo de compromisso,tce,humano
+Me explique o que é um Termo De Compromisso?,tce,humano
+o q é um termo de compromisso? como assino ele?,tce,humano
+Oque é o tce ?,tce,humano
+preciso assinar o termo antes de começar?,tce,humano
+quem tem q assinar o tce alem de mim?,tce,humano
+se mudar meu horario tenho q fazer outro termo?,tce,humano
+posso mandar o termo assinado pela internet msm?,tce,humano
+O termo de estágio precisa ser atualizado quando acontece alguma mudança?,tce,humano
 Como eu contrato um seguro pra estagio chat,seguro,humano
 Existe algum seguro do estagio? E quem que contrata?,seguro,humano
-
-Chat, me ajuda a preencher esse relatório pfv,relatorio_avaliacao,humano
+Quanto ao seguro do Estágio?,seguro,humano
+quem deve pagar o seguro?,seguro,humano
+qm é responsável por pagar o seguro para estagiar?,seguro,humano
+Como funciona o seguro para o estágios ?,seguro,humano
+"Chat, no caso do seguro do estagiário e do contrato, quem são os responsáveis?",seguro,humano
+quem paga o seguro do estagiario?,seguro,humano
+preciso ter seguro pra começar o estagio?,seguro,humano
+como vejo se meu seguro ja ta ativo?,seguro,humano
+o seguro cobre acidente fora da empresa tbm?,seguro,humano
+onde encontro os dados do seguro?,seguro,humano
+O seguro fica por conta da empresa ou da faculdade?,seguro,humano
+a faculdade que faz o seguro ou a empresa?,seguro,humano
+se meu contrato acabar o seguro tbm acaba?,seguro,humano
+"Chat, me ajuda a preencher esse relatório pfv",relatorio_avaliacao,humano
 Chat me ajida com meu relatorio final,relatorio_avaliacao,humano
 Como funciona o relatório final?,relatorio_avaliacao,humano
 Até quando posso entregar o relatório final ?,relatorio_avaliacao,humano
-
+Como fazer relatório final estágio,relatorio_avaliacao,humano
+O que preciso colocar no relatório e qual o prazo pra entregar?,relatorio_avaliacao,humano
+como preencho um relatório final?,relatorio_avaliacao,humano
+até quando posso entregar o relatório?,relatorio_avaliacao,humano
+o relatório final precisa seguir algum modelo específico?,relatorio_avaliacao,humano
+Quem corrige o relatório final?,relatorio_avaliacao,humano
+Tem uma quantidade mínima de páginas pro relatório de estágio?,relatorio_avaliacao,humano
+Como faço pra saber se meu relatório foi aprovado?,relatorio_avaliacao,humano
+tem modelo pronto pra preencher ou faço do zero?,relatorio_avaliacao,humano
+oq precisa colocar no relatorio do estagio?,relatorio_avaliacao,humano
+se tiver errado posso arrumar e mandar dnv?,relatorio_avaliacao,humano
 quais materias sao obrigatorias no meu curso?,fora_dominio,humano
 como faço seguro de vida?,fora_dominio,humano
 Poderia me ajudar a escolher um jogo?,fora_dominio,humano
 Qual filme é bom para assistir?,fora_dominio,humano
 Chat quero falar sobre o jogo de ontem,fora_dominio,humano
 Consegue me falar um bom restaurante?,fora_dominio,humano
-Chat, me fala uma receita de brownie que não tem erro,fora_dominio,humano
+"Chat, me fala uma receita de brownie que não tem erro",fora_dominio,humano
 Me indica um restaurante bom e perto daqui,fora_dominio,humano
 Como faço horas complementares?,fora_dominio,humano
 Como funciona os termos de uso ?,fora_dominio,humano
 Chat vc me ajuda com relatorio academico?,fora_dominio,humano
 Quabtas horas complementares preciso em (curso)?,fora_dominio,humano
-qual professor da a materia X?,fora_dominio,humano
+qual professor da a materia (nome da materia)?,fora_dominio,humano
 como faço pra conseguir bolsa permanencia?,fora_dominio,humano
+Quais seriam os requisitos para concluir o curso?,fora_dominio,humano
+eu perco a provisória se eu sofrer um sinistro no trânsito?,fora_dominio,humano
+"minha geladeira está fazendo um barulho estranho, oq pode ser?",fora_dominio,humano
+Qual a carga horária mínima de Matérias Opcionais?,fora_dominio,humano
+Como posso completar minhas horas complementares?,fora_dominio,humano
+É obrigatório os 75% de presença nas matérias?,fora_dominio,humano
+como posso conseguir horas complementares?,fora_dominio,humano
+qual o prazo para entregar o relatório final do projeto de extensão da minha disciplina?,fora_dominio,humano
+Gostaria de saber sobre a bolsa de monitoria,fora_dominio,humano
+quando abrem as inscrições para a bolsa de monitoria deste semestre?,fora_dominio,humano
+"preciso escolher um professor orientador para meu TCC, onde consulto os professores disponíveis para isso?",fora_dominio,humano
+Como participo de bolsas,fora_dominio,humano
+"Chat, meu notebook tá muito lento, tem alguma coisa que eu possa fazer?",fora_dominio,humano
+Como faço pra recuperar uma senha que esqueci?,fora_dominio,humano
+Você consegue me explicar a diferença entre Python e Java?,fora_dominio,humano
+Como faço pra cancelar uma compra que fiz pela internet?,fora_dominio,humano
+"Meu celular tá esquentando muito ultimamente, será que é normal?",fora_dominio,humano
+Me ajuda a escolher um presente de aniversário?,fora_dominio,humano
+Como faço pra atualizar o Windows?,fora_dominio,humano
+Qual a previsão do tempo pra amanhã?,fora_dominio,humano
+como fazum trabalho ABNT?,fora_dominio,humano
+"chat, meu fone bluetooth conecta mas fica sem som, como resolvo?",fora_dominio,humano
+qual a diferença entre memória RAM e cache?,fora_dominio,humano
+como faço pra consultar minha nota do enem?,fora_dominio,humano
+"Chat, tem como recuperar uma conversa que apaguei do whatsapp?",fora_dominio,humano
+Qual a diferença entre bacharelado e licenciatura?,fora_dominio,humano

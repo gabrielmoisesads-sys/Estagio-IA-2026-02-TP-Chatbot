@@ -1,3 +1,4 @@
+texto,intencao,origem
 Oi,chitchat,humano
 Opa,chitchat,humano
 Ola chat,chitchat,humano
@@ -103,21 +104,21 @@ como faço pra empresa conseguir convenio com a universidade?,vagas_convenio,hum
 posso estagiar numa empresa de outra cidade?,vagas_convenio,humano
 preciso esperar abrir vaga pela faculdade ou posso procurar sozinho?,vagas_convenio,humano
 alguem sabe onde encontro empresas q aceitam estagiarios?,vagas_convenio,humano
-"Chat, me explica como se eu fosse uma criança de 5 anos sobre a tce",tce,humano
-Chat me explique tudo sobre tce,tce,humano
-oq é tce?,tce,humano
-Existe algum termo de compromisso? Como funciona?,tce,humano
-como funciona o tce?,tce,humano
-precisa entregar o TCE na faculdade ou a empresa resolve isso?,tce,humano
-O que tenho que fazer sobre esse termo de compromisso,tce,humano
-Me explique o que é um Termo De Compromisso?,tce,humano
-o q é um termo de compromisso? como assino ele?,tce,humano
-Oque é o tce ?,tce,humano
-preciso assinar o termo antes de começar?,tce,humano
-quem tem q assinar o tce alem de mim?,tce,humano
-se mudar meu horario tenho q fazer outro termo?,tce,humano
-posso mandar o termo assinado pela internet msm?,tce,humano
-O termo de estágio precisa ser atualizado quando acontece alguma mudança?,tce,humano
+"Chat, me explica como se eu fosse uma criança de 5 anos sobre a tce",termo_compromisso,humano
+Chat me explique tudo sobre tce,termo_compromisso,humano
+oq é tce?,termo_compromisso,humano
+Existe algum termo de compromisso? Como funciona?,termo_compromisso,humano
+como funciona o tce?,termo_compromisso,humano
+precisa entregar o TCE na faculdade ou a empresa resolve isso?,termo_compromisso,humano
+O que tenho que fazer sobre esse termo de compromisso,termo_compromisso,humano
+Me explique o que é um Termo De Compromisso?,termo_compromisso,humano
+o q é um termo de compromisso? como assino ele?,termo_compromisso,humano
+Oque é o tce ?,termo_compromisso,humano
+preciso assinar o termo antes de começar?,termo_compromisso,humano
+quem tem q assinar o tce alem de mim?,termo_compromisso,humano
+se mudar meu horario tenho q fazer outro termo?,termo_compromisso,humano
+posso mandar o termo assinado pela internet msm?,termo_compromisso,humano
+O termo de estágio precisa ser atualizado quando acontece alguma mudança?,termo_compromisso,humano
 Como eu contrato um seguro pra estagio chat,seguro,humano
 Existe algum seguro do estagio? E quem que contrata?,seguro,humano
 Quanto ao seguro do Estágio?,seguro,humano

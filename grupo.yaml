@@ -9,12 +9,12 @@
 grupo:
   nome: "Grupo Estágio"
   integrantes:          # 3 a 4 integrantes  (completar nomes e RGAs)
-    - nome: "Fernanda Brittes"
-      rga: ""
-    - nome: "Willian"
-      rga: ""
-    - nome: "Gabriel"
-      rga: ""
+    - nome: "Fernanda Lara de Brittes"
+      rga: "202519060201"
+    - nome: "Willian Carneiro Ferreira"
+      rga: "2026.1904.001-6"
+    - nome: "Gabriel Moisés Ribeiro Lanzarin"
+      rga: "202219070236"
 
 tema:
   nome: "Estágio"
@@ -58,9 +58,11 @@ conhecimento:
 
 roteamento:
   # Abaixo desta confiança no tema, o bot pede esclarecimento em vez de responder.
-  # Valor escolhido com dados (notebook 01, seção 6): na validação cruzada, 0.30
-  # evita 4 erros ao custo de 4 acertos virarem pergunta (98,6% respondidas direto,
-  # 98,7% de acurácia nelas); 0.35 já trocaria 5 erros por 8 acertos.
+  # Valor escolhido com dados (notebook 01, seção 6, validação cruzada no treino
+  # final): 0.30 evita 1 erro sem perder acertos (99,8% respondidas direto). 0.35
+  # evitaria 6 erros ao custo de 3 acertos virarem pergunta; como na avaliação
+  # automática toda pergunta de esclarecimento conta como erro, ficamos com o
+  # valor conservador. Acima de 0.40 os acertos perdidos superam os erros evitados.
   limiar_tema: 0.30
 
 intencoes:

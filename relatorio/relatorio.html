@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Estagi: chatbot de estágio da UFMS</title>
+<style>
+  @page { size: A4; margin: 3.5cm 3cm 2.5cm 3cm; }
+  html { background: #fff; }
+  body { font-family: "Times New Roman", Times, serif; font-size: 12pt; line-height: 1.18; color: #000; background: #fff; margin: 0; }
+  h1.titulo { font-size: 16pt; font-weight: bold; text-align: center; margin: 0 0 12pt; }
+  .autores { text-align: center; font-weight: bold; margin: 0 0 6pt; }
+  .afiliacao { text-align: center; margin: 0 0 4pt; }
+  .resumo { font-style: italic; text-align: justify; margin: 14pt 0.8cm 0; }
+  .resumo b { font-style: normal; }
+  h2 { font-size: 13pt; font-weight: bold; margin: 14pt 0 6pt; page-break-after: avoid; }
+  h3 { font-size: 12pt; font-weight: bold; margin: 10pt 0 4pt; page-break-after: avoid; }
+  p { text-align: justify; margin: 0 0 6pt; text-indent: 1.27cm; }
+  p.sem { text-indent: 0; }
+  ul { margin: 0 0 6pt 0.6cm; padding-left: 0.4cm; text-align: justify; }
+  li { margin-bottom: 2pt; }
+  table { border-collapse: collapse; margin: 4pt auto 4pt; font-size: 10pt; page-break-inside: avoid; }
+  th, td { border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 1.5pt 5pt; text-align: center; vertical-align: top; }
+  th { font-weight: bold; }
+  td.l, th.l { text-align: left; }
+  table.ia td { text-align: left; }
+  .legenda { font-size: 10pt; font-weight: bold; text-align: center; margin: 3pt 0 10pt; page-break-before: avoid; }
+  figure { margin: 6pt 0 0; text-align: center; page-break-inside: avoid; }
+  figure img { max-width: 100%; }
+  .duas { display: flex; gap: 10pt; justify-content: center; align-items: flex-end; }
+  .duas img { width: 48%; }
+  code { font-family: "Courier New", monospace; font-size: 10.5pt; }
+  .ref p { text-indent: -0.6cm; padding-left: 0.6cm; font-size: 11pt; margin-bottom: 3pt; }
+  .nota { font-size: 10pt; border-top: 1px solid #000; margin-top: 8pt; padding-top: 3pt; text-indent: 0; }
+  .pendente { background: #ffeb3b; }
+</style>
+</head>
+<body>
+
+<h1 class="titulo">Estagi: um chatbot de intenções com recuperação de documentos para dúvidas de estágio na UFMS</h1>
+<p class="autores sem">Fernanda Lara de Brittes, Gabriel Moisés Ribeiro Lanzarin, Willian Carneiro Ferreira</p>
+<p class="afiliacao sem">Faculdade de Computação (FACOM) – Universidade Federal de Mato Grosso do Sul (UFMS)<br>Campo Grande – MS – Brasil</p>
+
+<p class="resumo sem"><b>Resumo.</b> Este trabalho apresenta o Estagi, um chatbot que responde dúvidas de estudantes de graduação da UFMS sobre estágio. O sistema usa dois classificadores em cascata – um de escopo (domínio, conversa social ou fora do domínio) e um de tema (oito intenções) – orquestrados por um grafo LangGraph, e um LLM que redige a resposta a partir de trechos de documentos oficiais recuperados por TF-IDF (RAG). Comparamos quatro algoritmos em três representações com validação cruzada estratificada, ajustamos hiperparâmetros por busca em grade e escolhemos o limiar de confiança com dados. No conjunto de teste, escrito apenas por pessoas (190 frases), o sistema atingiu F1 macro de 0,853 no escopo, 0,933 no tema e 0,878 de ponta a ponta, com falso aceite de 10% e falsa recusa de 2,5%.</p>
+
+<h2>1. Introdução</h2>
+<p>Dúvidas sobre estágio – se é obrigatório, quantas horas se pode cumprir, quem paga o seguro, como prorrogar o termo de compromisso – se repetem a cada semestre e costumam chegar por e-mail às Comissões de Estágio (COE) dos cursos. As regras estão espalhadas entre a Lei nº 11.788/2008 [Brasil 2008], a Resolução nº 706-COGRAD/UFMS/2022 [UFMS 2022] e manuais da Pró-Reitoria de Assuntos Estudantis (Proaes), o que torna difícil para o estudante achar a resposta sozinho.</p>
+<p>O grupo construiu o <b>Estagi</b>, um assistente que (i) decide se a mensagem é sobre estágio, conversa social (<i>chitchat</i>) ou outro assunto; (ii) identifica qual das oito intenções do domínio foi perguntada; e (iii) responde com base nos documentos oficiais, citando a fonte. A decisão de rota é feita por classificadores clássicos, treinados e avaliados com protocolo experimental controlado; o LLM só redige o texto final. Os principais resultados são: regressão logística sobre n-gramas de caracteres no escopo (F1 macro de 0,821 na validação cruzada e 0,853 no teste), rede neural MLP no tema (0,945 e 0,933) e um sistema ponta a ponta com 84,7% de acurácia e F1 macro de 0,878 no teste humano.</p>
+
+<h2>2. Fundamentação</h2>
+<p><b>Classificação de textos.</b> Um chatbot de intenções trata cada mensagem como um problema de classificação supervisionada: dado um texto, prever um rótulo dentre um conjunto fixo [Jurafsky e Martin 2024]. O texto precisa ser convertido em vetor; usamos o <b>TF-IDF</b>, que pondera cada termo pela frequência no documento e pela raridade no corpus [Manning et al. 2008], em duas variantes: <i>palavras</i> (unigramas e bigramas) e <i>n-gramas de caracteres</i> dentro das palavras, mais robustos a erros de digitação, abreviações (“vc”, “tb”) e flexões.</p>
+<p><b>Algoritmos.</b> Comparamos quatro classificadores do scikit-learn [Pedregosa et al. 2011]: <b>Naive Bayes multinomial</b> (probabilístico, assume independência entre termos), <b>árvore de decisão</b> (regras interpretáveis, tende a sobreajustar em espaços esparsos), <b>regressão logística</b> (linear, regularizada pelo parâmetro C) e <b>perceptron multicamadas (MLP)</b> com uma camada oculta, que aprende combinações não lineares dos termos [Russell e Norvig 2021].</p>
+<p><b>Detecção de fora do escopo.</b> Sistemas reais recebem muitas mensagens que não pertencem a nenhuma intenção; tratá-las como uma classe explícita e medir o <i>falso aceite</i> é prática recomendada na literatura [Larson et al. 2019]. Por isso o primeiro estágio separa <i>domínio</i>, <i>chitchat</i> e <i>fora_dominio</i>.</p>
+<p><b>RAG.</b> Na geração aumentada por recuperação [Lewis et al. 2020], o sistema busca trechos relevantes numa base de documentos e os entrega ao modelo de linguagem como contexto, reduzindo respostas inventadas e permitindo citar a fonte. O fluxo do bot é um grafo de estados implementado com LangGraph [LangChain 2025].</p>
+
+<h2>3. Domínio, dados e documentos</h2>
+<h3>3.1 Intenções</h3>
+<p>Definimos oito intenções a partir da estrutura da Resolução 706-COGRAD: <code>tipos_estagio</code> (obrigatório e não obrigatório, quem pode estagiar), <code>vagas_convenio</code> (vagas, concedentes, convênios e agentes de integração), <code>termo_compromisso</code> (TCE, assinaturas, aditivo, rescisão), <code>carga_horaria</code> (jornada, duração, recesso), <code>bolsa_auxilio</code> (bolsa e auxílio-transporte), <code>seguro</code> (seguro contra acidentes pessoais), <code>orientador_supervisor</code> (orientador, supervisor e COE) e <code>relatorio_avaliacao</code> (relatórios, avaliação e conclusão). Cada intenção tem descrição e resposta fixa no <code>grupo.yaml</code>, usada quando o LLM não está disponível.</p>
+
+<h3>3.2 Dados de treino e teste</h3>
+<p>O treino combina três origens (Tabela 1):</p>
+<ul>
+<li><b>LLM</b> – o modelo <code>openai/gpt-6-luna</code>, via OpenRouter, gerou 895 frases: 562 das oito intenções (5 estilos × 14 frases por intenção), 62 de chitchat, 100 de fora do domínio e 171 <b>negativos difíceis</b>, perguntas sobre temas de outros grupos que usam palavras do nosso domínio (“bolsa de monitoria”, “termo de trancamento”, “seguro saúde”, “orientador de TCC”). Todas foram revisadas; 12 foram descartadas (frases cortadas, rótulo ambíguo), com o motivo registrado em <code>dados/descartadas_llm.txt</code>. Todos os <i>prompts</i> estão em <code>dados/prompts_llm.md</code>.</li>
+<li><b>MASSIVE</b> [FitzGerald et al. 2023] – frases reais de assistentes de voz em português (pt-PT), usadas como negativos fáceis de chitchat e fora do domínio.</li>
+<li><b>Humano</b> – respostas a um formulário (Google Forms) divulgado pelo grupo, no qual estudantes escreveram o que perguntariam a um bot de estágio, e frases escritas pelos integrantes. As respostas foram rotuladas manualmente pelo grupo.</li>
+</ul>
+<p>O <b>teste</b> tem 190 frases, todas escritas por pessoas (15 por intenção, 30 de chitchat e 40 de fora do domínio), separadas antes de qualquer experimento e sem nenhuma repetição no treino (checado após normalização). Como só obtivemos 133 frases humanas para o treino, e a regra exige no mínimo 20% de frases humanas, mantivemos <b>todas</b> as humanas e usamos uma <b>amostra</b> das artificiais, no mínimo exigido por classe (≥50 por intenção, ≥100 de chitchat, ≥150 de fora do domínio). O treino final tem 661 frases, 20,1% humanas (<code>scripts/montar_treino.py</code>).</p>
+
+<table>
+<tr><th class="l">Classe</th><th>Humano</th><th>LLM</th><th>MASSIVE</th><th>Treino</th><th>Teste</th></tr>
+<tr><td class="l">8 intenções (cada)</td><td>10–11</td><td>40–41</td><td>0</td><td>50–52</td><td>15</td></tr>
+<tr><td class="l">chitchat</td><td>21</td><td>51</td><td>28</td><td>100</td><td>30</td></tr>
+<tr><td class="l">fora_dominio</td><td>30</td><td>92</td><td>30</td><td>152</td><td>40</td></tr>
+<tr><td class="l"><b>Total</b></td><td><b>133</b></td><td><b>470</b></td><td><b>58</b></td><td><b>661</b></td><td><b>190</b></td></tr>
+</table>
+<p class="legenda">Tabela 1. Composição dos conjuntos de treino e teste por origem.</p>
+<p>As frases humanas são mais curtas (7,3 palavras em média, contra 10,8 das do LLM) e mais informais (“vc”, “dnv”, vocativos como “Chat, ...”), o que já sugere que elas serão mais difíceis para o classificador (Seção 6).</p>
+
+<h3>3.3 Documentos</h3>
+<p>A base de conhecimento tem 13 documentos, um ou mais por intenção, com a origem em <code>documentos/FONTES.md</code>: quatro PDFs oficiais da UFMS (Resolução 706-COGRAD, manual de preenchimento do Termo de Compromisso no Portal do Estágio, Instrução Normativa nº 11-Proaes/2021 sobre o seguro e o manual de estágio de um curso do CPAQ) e nove resumos em Markdown, um por intenção e um de perguntas frequentes, redigidos a partir da Lei 11.788 e da Resolução 706. Os documentos são divididos em 140 trechos de até 700 caracteres e indexados por TF-IDF; o bot recupera os 4 trechos mais similares (similaridade mínima de 0,05).</p>
+
+<h2>4. Metodologia</h2>
+<p>Todo o desenvolvimento usou apenas o treino. A métrica principal é o <b>F1 macro</b>, que dá o mesmo peso a cada classe – importante porque fora do domínio e chitchat têm tamanhos diferentes das intenções. O protocolo foi:</p>
+<ul>
+<li><b>Comparação</b>: 4 algoritmos × 3 representações (TF-IDF de palavras 1–2-gramas, TF-IDF só de unigramas com <code>min_df=2</code> e TF-IDF de caracteres 2–5-gramas), em validação cruzada estratificada de 5 partições (semente 42), para cada estágio.</li>
+<li><b>Ajuste</b>: <code>GridSearchCV</code> nos dois melhores algoritmos, com n-gramas de caracteres: regressão logística com C ∈ {0,01; 0,1; 1; 10; 100; 1000} e n-gramas (2,4) ou (2,5); MLP com 32 ou 64 neurônios e α ∈ {10<sup>−4</sup>; 10<sup>−2</sup>; 1}. Traçamos a curva de validação de C para verificar sub e sobreajuste.</li>
+<li><b>Análise</b>: matrizes de confusão com as previsões da validação cruzada; no escopo, <b>falso aceite</b> (mensagem negativa tratada como domínio) e <b>falsa recusa</b> (pergunta do domínio recusada); taxa de erro por origem.</li>
+<li><b>Limiar</b>: com as probabilidades da validação cruzada do tema, medimos para cada limiar quantas frases seriam respondidas direto, quantos erros virariam pedido de esclarecimento e quantos acertos seriam perdidos.</li>
+<li><b>Teste único</b>: com todas as escolhas congeladas, o conjunto de teste foi avaliado uma única vez, nos três níveis da avaliação padronizada (escopo, tema com oráculo e ponta a ponta).</li>
+</ul>
+
+<h2>5. Resultados</h2>
+<h3>5.1 Classificador de escopo</h3>
+<p>A Figura 1 resume a comparação. Regressão logística e MLP dominaram; a árvore de decisão foi a pior em todas as representações (F1 entre 0,59 e 0,68), sobreajustando o treino (F1 ≈ 1,0 no treino). O melhor resultado bruto foi a regressão logística com unigramas (0,826 ± 0,040), seguida da MLP com unigramas (0,810) e da regressão logística com caracteres (0,809). Na busca em grade, a regressão logística com caracteres (2–5) e C = 100 chegou a 0,821, e a MLP a 0,815. Escolhemos a <b>regressão logística com n-gramas de caracteres e C = 100</b>: tem desempenho equivalente ao melhor (diferença menor que um desvio-padrão), é mais robusta a erros de digitação, comuns nas frases humanas, e fornece probabilidades bem comportadas.</p>
+<figure class="duas">
+  <img src="figuras/cel16_1.png" alt="Comparação dos classificadores de escopo">
+  <img src="figuras/cel22_0.png" alt="Matriz de confusão do escopo">
+</figure>
+<p class="legenda">Figura 1. Escopo: F1 macro na validação cruzada por algoritmo e representação (esquerda) e matriz de confusão do modelo escolhido (direita).</p>
+<p>A matriz de confusão mostra que o erro dominante é <b>fora do domínio previsto como domínio</b> (46 de 152): é exatamente o efeito dos negativos difíceis. Na validação cruzada, o falso aceite foi de 22,6% e a falsa recusa de 3,9%. A taxa de erro varia com a origem: 10,2% nas frases do LLM, 18,8% nas humanas e 31,0% nas da MASSIVE.</p>
+
+<h3>5.2 Classificador de tema</h3>
+<p>No tema, as diferenças foram menores: Naive Bayes, regressão logística e MLP com caracteres ficaram entre 0,935 e 0,942. Após a busca em grade, a <b>MLP com 64 neurônios e α = 0,01</b> obteve 0,945, e a regressão logística 0,943; ficamos com a MLP. Os pares mais confundidos (Figura 2) são <code>carga_horaria</code> → <code>tipos_estagio</code> (“Posso estagiar de manhã e estudar à tarde?”), <code>bolsa_auxilio</code> → <code>carga_horaria</code> e <code>relatorio_avaliacao</code> → <code>termo_compromisso</code> (“preciso de assinatura da empresa no relatório?”): perguntas que de fato tocam dois assuntos, ou cuja palavra-chave pertence a outra intenção. <code>seguro</code> foi a intenção mais fácil (F1 = 1,00). Os termos de maior peso de uma regressão logística sobre palavras confirmam que o modelo aprendeu o vocabulário esperado (“bolsa”, “transporte”; “horas”, “recesso”; “tce”, “aditivo”).</p>
+<figure class="duas">
+  <img src="figuras/cel26_0.png" alt="Matriz de confusão do tema">
+  <img src="figuras/cel30_0.png" alt="Confiança do tema e limiar">
+</figure>
+<p class="legenda">Figura 2. Tema: matriz de confusão na validação cruzada (esquerda) e distribuição da confiança de acertos e erros, com o limiar escolhido (direita).</p>
+
+<h3>5.3 Limiar de confiança</h3>
+<p>Abaixo do limiar, o bot pergunta “sua dúvida é sobre A ou B?” em vez de responder. Na validação cruzada, os erros do tema já têm confiança alta, então o limiar tem pouco efeito: 0,30 evita 1 erro sem perder acertos (99,8% respondidas direto); 0,35 evitaria 6 erros, mas 3 acertos virariam pergunta; a partir de 0,50, os acertos perdidos superam os erros evitados (0,60: 14 erros evitados contra 22 acertos perdidos). Como na avaliação automática um pedido de esclarecimento conta como erro, adotamos o valor conservador de <b>0,30</b>.</p>
+
+<h3>5.4 Avaliação final no teste</h3>
+<table>
+<tr><th class="l">Nível</th><th>n</th><th>Acurácia</th><th>F1 macro</th><th>F1 macro (CV)</th></tr>
+<tr><td class="l">Escopo (1º estágio)</td><td>190</td><td>0,895</td><td>0,853</td><td>0,821</td></tr>
+<tr><td class="l">Tema (2º estágio, oráculo)</td><td>120</td><td>0,933</td><td>0,933</td><td>0,945</td></tr>
+<tr><td class="l">Ponta a ponta (grafo)</td><td>190</td><td>0,847</td><td>0,878</td><td>–</td></tr>
+</table>
+<p class="legenda">Tabela 2. Avaliação padronizada no teste humano (uma única vez), comparada à validação cruzada.</p>
+<p>No teste (Tabela 2), o escopo errou pouco no domínio (117 de 120 corretos), mas recuperou só 25 das 40 mensagens fora do domínio: 10 foram aceitas como domínio e 5 tratadas como chitchat. O <b>falso aceite foi de 10,0%</b>, a <b>falsa recusa de 2,5%</b>, e 4,2% das mensagens receberam pedido de esclarecimento. A latência média de classificação foi de 3,7 ms.</p>
+
+<h3>5.5 Aprofundamento A1: cascata × classificador único</h3>
+<p>Comparamos a cascata (escopo → tema) com um único classificador de 10 classes (8 intenções + chitchat + fora do domínio), ambos com regressão logística sobre caracteres e sem limiar. Na validação cruzada, o classificador único foi melhor (0,887 ± 0,021 contra 0,853 ± 0,017); no teste, empataram (0,850 contra 0,849). A vantagem do único na validação cruzada vem de ele ver todas as classes ao mesmo tempo, o que ajuda a separar negativos difíceis de intenções específicas; mas ela não se manteve nas frases humanas. A cascata, por sua vez, permite usar um algoritmo próprio em cada estágio (no nosso caso, MLP só no tema), aplicar o limiar apenas entre intenções e analisar separadamente falso aceite e confusão entre temas – o que justificou mantê-la no bot final.</p>
+
+<h2>6. Discussão</h2>
+<p><b>Análise dos erros.</b> No teste, os erros se concentram em três padrões. (i) <b>Assuntos acadêmicos vizinhos</b>: “quais matérias são obrigatórias no meu curso?”, “é obrigatório 75% de presença?” e “preciso escolher um professor orientador para meu TCC” foram aceitos como estágio porque compartilham “obrigatório” e “orientador” com o domínio – são negativos difíceis que nossos próprios negativos do LLM não cobriram. (ii) <b>Vocativo “Chat”</b>: “Chat, me fala uma receita de brownie” e “Chat, meu notebook tá lento” foram classificados como chitchat, porque no treino humano o vocativo aparece quase sempre em conversa social; o modelo aprendeu a palavra, não a intenção. (iii) <b>Pedidos de explicação geral</b>: “Chat, me explique tudo sobre TCE” virou chitchat, e “se mudar meu horário tenho que fazer outro termo?” foi para carga horária – uma pergunta que de fato mistura dois temas. Na demonstração, o bot também recusou “meu termo de compromisso venceu semana passada, ainda dá pra prorrogar?”, uma falsa recusa de uma frase longa e narrativa, estilo pouco presente no treino. Já a pergunta sem resposta nos documentos (“qual o valor da bolsa de monitoria?”) foi tratada corretamente pela persona: o bot disse não ter a informação e indicou a COE, em vez de inventar um valor.</p>
+<p><b>Validação cruzada × teste.</b> O escopo foi melhor no teste (0,853) que na validação cruzada (0,821), e o tema ligeiramente pior (0,933 contra 0,945). A diferença no escopo se explica pela composição: a validação cruzada inclui as frases da MASSIVE, as mais difíceis (31% de erro), que não existem no teste; e o domínio do teste, escrito por estudantes, é bem reconhecido. Com apenas 15 exemplos por intenção, uma frase a mais ou a menos muda o F1 de uma classe em cerca de 3 pontos, então diferenças pequenas não são significativas.</p>
+<p><b>Efeito da origem dos dados.</b> As frases humanas erraram quase o dobro das do LLM na validação cruzada (18,8% contra 10,2%): o LLM escreve frases longas, completas e com vocabulário previsível, enquanto pessoas escrevem “Quanto vou receber?” ou “Estágio benefícios”. Treinar majoritariamente com dados sintéticos superestima o desempenho; a exigência de 20% de dados humanos e de um teste 100% humano foi decisiva para medir o desempenho real. A redução das frases do LLM para atingir 20% também diminuiu o treino de 1374 para 661 frases, o que provavelmente custou alguns pontos de F1 no escopo.</p>
+<p><b>Limitações.</b> O maior problema é o falso aceite de 10%: no tema estágio, responder com segurança algo que não é de estágio pode induzir o estudante ao erro. Os resumos em Markdown foram redigidos a partir das normas e precisam ser mantidos atualizados; regras específicas variam conforme o Projeto Pedagógico de cada curso. A recuperação por TF-IDF falha quando a pergunta usa sinônimos que não aparecem nos documentos. Por fim, o teste é pequeno (190 frases).</p>
+<p><b>Conexões com a disciplina.</b> O trabalho exercitou aprendizado supervisionado, representação de texto, o compromisso entre viés e variância (árvore sobreajustada; curva de validação de C), a separação rigorosa entre treino e teste, e a ideia de agente com estados e decisões explícitas (o grafo), combinando IA simbólica (rotas e regras) com modelos estatísticos e um LLM.</p>
+
+<h2>7. Conclusão</h2>
+<p>O Estagi mostra que classificadores clássicos, bem avaliados, bastam para decidir a rota de um chatbot de atendimento: o sistema acerta 93% das intenções e 85% das mensagens de ponta a ponta no teste humano, e o LLM com RAG responde citando a fonte e admitindo quando não sabe. Funcionou bem a regressão logística sobre n-gramas de caracteres, robusta à escrita informal; não funcionou tão bem a detecção de fora do domínio para assuntos acadêmicos vizinhos. Como trabalhos futuros, propomos coletar mais frases humanas, sobretudo negativos difíceis acadêmicos; testar <i>embeddings</i> de sentenças nas duas etapas e na recuperação; e calibrar um limiar também no escopo para reduzir o falso aceite.<sup>1</sup></p>
+<p class="nota"><sup>1</sup> Vídeo de apresentação: <span class="pendente">[LINK DO VÍDEO]</span>. Repositório: https://github.com/gabrielmoisesads-sys/Estagio-IA-2026-02-TP-Chatbot</p>
+
+<h2>Contribuição dos integrantes</h2>
+<p class="sem"><b>Fernanda Lara de Brittes</b>: formulário, coleta e rotulagem das frases humanas de treino e teste. <b>Gabriel Moisés Ribeiro Lanzarin</b>: definição das intenções, documentos, geração e revisão dos dados do LLM, código e notebook (com apoio do Claude Code, ver abaixo). <b>Willian Carneiro Ferreira</b>: criação do repositório do grupo, revisão e complemento do relatório. Todos participaram da revisão dos resultados e do vídeo.</p>
+
+<h2>Declaração de uso de IA generativa</h2>
+<p class="sem">O grupo usou IA generativa nas etapas abaixo; o registro completo está em <code>USO_DE_IA.md</code> e os <i>prompts</i> de geração de dados em <code>dados/prompts_llm.md</code>. O grupo é responsável por todo o conteúdo entregue.</p>
+<table class="ia">
+<tr><th>Ferramenta</th><th>Etapa</th><th>O que a IA fez</th><th>O que o grupo fez</th></tr>
+<tr><td>Claude Code (Claude Opus 5.5)</td><td>Planejamento e domínio</td><td>Resumiu o enunciado; propôs as 8 intenções e respostas fixas a partir da Res. 706 e da Lei 11.788</td><td>Aprovou a proposta; conferiu as respostas com os artigos citados</td></tr>
+<tr><td>Claude Code</td><td>Documentos</td><td>Localizou 4 PDFs oficiais e redigiu 9 resumos em Markdown</td><td>Conferiu os resumos com as normas; registrou as fontes</td></tr>
+<tr><td>OpenRouter, gpt-6-luna</td><td>Dados de treino</td><td>Gerou 895 frases (intenções, chitchat, fora do domínio e 171 negativos difíceis)</td><td>Revisou todas; descartou 12; usou uma amostra de 470</td></tr>
+<tr><td>Claude Code</td><td>Código</td><td>Escreveu os scripts de montagem dos dados e o notebook a partir do exemplo do professor; corrigiu um erro de compatibilidade</td><td>Executou, conferiu os números e as escolhas de modelo e limiar</td></tr>
+<tr><td>OpenRouter, gpt-6-luna</td><td>Chatbot</td><td>Redige as respostas a partir dos trechos recuperados</td><td>Ajustou a persona; testou acertos, erros e perguntas sem resposta</td></tr>
+<tr><td>Claude Code</td><td>Artigo</td><td>Redigiu a primeira versão deste artigo a partir dos resultados do notebook</td><td>Revisou o texto, os números e a análise</td></tr>
+</table>
+<p class="sem">Não foram feitas com IA: as frases de origem humana do treino e do teste, a rotulagem das respostas do formulário e o vídeo.</p>
+
+<h2>Referências</h2>
+<div class="ref">
+<p>Brasil (2008). Lei nº 11.788, de 25 de setembro de 2008. Dispõe sobre o estágio de estudantes. Diário Oficial da União.</p>
+<p>FitzGerald, J. et al. (2023). MASSIVE: A 1M-example multilingual natural language understanding dataset with 51 typologically-diverse languages. In <i>Proceedings of ACL 2023</i>, p. 4277–4302.</p>
+<p>Jurafsky, D. e Martin, J. H. (2024). <i>Speech and Language Processing</i>. 3ª ed. (rascunho). Stanford University.</p>
+<p>LangChain (2025). LangGraph documentation. https://langchain-ai.github.io/langgraph/.</p>
+<p>Larson, S. et al. (2019). An evaluation dataset for intent classification and out-of-scope prediction. In <i>Proceedings of EMNLP-IJCNLP 2019</i>, p. 1311–1316.</p>
+<p>Lewis, P. et al. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. In <i>Advances in Neural Information Processing Systems 33</i>, p. 9459–9474.</p>
+<p>Manning, C. D., Raghavan, P. e Schütze, H. (2008). <i>Introduction to Information Retrieval</i>. Cambridge University Press.</p>
+<p>Pedregosa, F. et al. (2011). Scikit-learn: Machine learning in Python. <i>Journal of Machine Learning Research</i>, 12:2825–2830.</p>
+<p>Russell, S. e Norvig, P. (2021). <i>Artificial Intelligence: A Modern Approach</i>. 4ª ed. Pearson.</p>
+<p>UFMS (2022). Resolução nº 706-COGRAD/UFMS, de 2022. Regulamento de estágio dos cursos de graduação da UFMS.</p>
+</div>
+
+</body>
+</html>

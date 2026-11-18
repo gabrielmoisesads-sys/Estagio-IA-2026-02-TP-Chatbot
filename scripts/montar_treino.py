@@ -14,6 +14,11 @@ Se humano_treino.csv / humano_teste.csv não existirem, são ignorados. O script
 remove do treino qualquer frase que esteja no teste (sem vazamento).
 
 Uso:  python scripts/montar_treino.py [--chitchat-massive 120] [--fora-massive 250]
+      [--llm-intencao N] [--llm-chitchat N] [--llm-fora N]
+
+Configuração usada na entrega final (133 frases humanas no treino):
+      python scripts/montar_treino.py --llm-intencao 41 --llm-chitchat 53 \
+          --chitchat-massive 28 --llm-fora 92 --fora-massive 30
 """
 from __future__ import annotations
 
@@ -43,6 +48,10 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--chitchat-massive", type=int, default=120)
     ap.add_argument("--fora-massive", type=int, default=250)
+    ap.add_argument("--llm-intencao", type=int, default=None,
+                    help="máximo de frases do LLM por intenção do domínio (padrão: todas)")
+    ap.add_argument("--llm-chitchat", type=int, default=None, help="máximo de frases do LLM em chitchat")
+    ap.add_argument("--llm-fora", type=int, default=None, help="máximo de frases do LLM em fora_dominio")
     ap.add_argument("--semente", type=int, default=42)
     args = ap.parse_args(argv)
 
@@ -50,6 +59,14 @@ def main(argv=None) -> int:
     descartar = {l.strip() for l in (D / "descartadas_llm.txt").read_text(encoding="utf-8").splitlines()
                  if l.strip() and not l.startswith("#")}
     llm = llm[~llm["texto"].isin(descartar)]
+    # Limita as frases artificiais por classe para atingir >= 20% de frases humanas
+    # sem descartar nenhuma frase humana.
+    limites = {"chitchat": args.llm_chitchat, "fora_dominio": args.llm_fora}
+    llm = pd.concat([
+        g if (n := limites.get(rot, args.llm_intencao)) is None or len(g) <= n
+        else g.sample(n=n, random_state=args.semente)
+        for rot, g in llm.groupby("intencao")
+    ], ignore_index=True)
 
     partes = [llm]
     for nome, n in (("massive_chitchat.csv", args.chitchat_massive),

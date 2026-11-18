@@ -1,0 +1,134 @@
+texto,intencao,origem
+Faça certo,chitchat,humano
+tem q contratar seguro por fora ou ja vem incluido?,seguro,humano
+precisa ter quantas paginas mais ou menos?,relatorio_avaliacao,humano
+e ai,chitchat,humano
+opa blz,chitchat,humano
+salve salve,chitchat,humano
+Boa tarde,chitchat,humano
+boa noite pessoal,chitchat,humano
+valeuu,chitchat,humano
+brigadao,chitchat,humano
+agradecido,chitchat,humano
+"tmj entao, flw",chitchat,humano
+show de bola,chitchat,humano
+nossa nao era nada disso,chitchat,humano
+Hmm isso nao me ajudou,chitchat,humano
+essa resposta ta meio estranha,chitchat,humano
+tenta de novo,chitchat,humano
+ta me enrolando ne,chitchat,humano
+nao curti,chitchat,humano
+"affs, de novo isso?",chitchat,humano
+"Ahh agora sim, obrigado!",chitchat,humano
+pq vc respondeu isso??,chitchat,humano
+"ata, entendi. valeu",chitchat,humano
+"to no 3 periodo, estagio é obrigatorio ou posso deixar pra la?",tipos_estagio,humano
+"qual dos dois conta pra formatura, o obrigatorio ou o outro",tipos_estagio,humano
+no (nome do curso) da pra se formar sem fazer estagio nenhum?,tipos_estagio,humano
+o que muda entre estagio curricular e extracurricular,tipos_estagio,humano
+existe mais de um tipo de estágio?,tipos_estagio,humano
+se eu ja trabalho numa empresa conta como estagio obrigatorio?,tipos_estagio,humano
+eu consigo fazer estagio sem ser obrigatorio?,tipos_estagio,humano
+"Preciso entender como funciona o estágio do meu curso, é exigido?",tipos_estagio,humano
+estagio nao obrigatorio atrapalha minha formatura?,tipos_estagio,humano
+quais modalidades de estagio existem,tipos_estagio,humano
+"minha empresa quer q eu fique 8 horas la, ta dentro da lei?",carga_horaria,humano
+"Trabalho de manha e estudo a noite, qual o limite de carga horaria?",carga_horaria,humano
+sao quantas horas no total pra fechar o estagio do meu curso,carga_horaria,humano
+posso compensar horas de um dia em outro,carga_horaria,humano
+"Quero fazer estagio so aos sabados, pode?",carga_horaria,humano
+em semana de prova a empresa tem q reduzir as horas?,carga_horaria,humano
+preciso cumprir quantas horas por mes no minimo?,carga_horaria,humano
+limite de horas pra estagiario de nivel superior,carga_horaria,humano
+Se eu passar das 30h semanais acontece o que?,carga_horaria,humano
+"o horario do estagio quem define, a empresa ou eu?",carga_horaria,humano
+Quem é o responsavel por mim lá na faculdade durante o estágio?,orientador_supervisor,humano
+"meu chefe disse q nao pode ser supervisor, e agora",orientador_supervisor,humano
+"meu professor sumiu e nao responde nada, quem me ajuda",orientador_supervisor,humano
+da pra pegar qualquer professor pra me orientar?,orientador_supervisor,humano
+o cara q me supervisiona na empresa precisa ter formaçao?,orientador_supervisor,humano
+meu orientador pediu pra marcar reuniao mas nao sei como,orientador_supervisor,humano
+a assinatura de quem vale na ficha de frequencia?,orientador_supervisor,humano
+eh o supervisor q da nota no meu estágio?,orientador_supervisor,humano
+tenho que escolher meu orientador ou ja vem definido,orientador_supervisor,humano
+posso ter orientador de fora da faculdade?,orientador_supervisor,humano
+o estagio paga quanto em media?,bolsa_auxilio,humano
+"Minha empresa so paga 600, isso ta certo?",bolsa_auxilio,humano
+descontam algo do meu pagamento tipo taxa ou imposto,bolsa_auxilio,humano
+passagem de onibus é por minha conta ou da empresa?,bolsa_auxilio,humano
+"Fiquei doente 2 dias e descontaram da bolsa, pode isso?",bolsa_auxilio,humano
+qual a data limite pra empresa pagar o estagiario,bolsa_auxilio,humano
+existe estagio nao remunerado?,bolsa_auxilio,humano
+no estagio obrigatorio a empresa precisa pagar algo?,bolsa_auxilio,humano
+a bolsa entra na minha declaraçao anual?,bolsa_auxilio,humano
+o valor da bolsa pode diminuir no meio do contrato,bolsa_auxilio,humano
+"to procurando estagio na area de (nome do curso), por onde começo?",vagas_convenio,humano
+existe um mural ou plataforma de oportunidades aqui da facul?,vagas_convenio,humano
+"gostei de uma empresa mas ela nao é conveniada, posso seguir?",vagas_convenio,humano
+me passa uma lista das conveniadas,vagas_convenio,humano
+"Boa noite, como faço pra ver as oportunidades de estagio?",vagas_convenio,humano
+home office em empresa de fora do meu estado vale como estagio?,vagas_convenio,humano
+"Um amigo me indicou uma vaga, preciso avisar a faculdade?",vagas_convenio,humano
+"quem faz o convenio, eu ou a empresa",vagas_convenio,humano
+Ja mandei curriculo pra varias empresas e nada. A faculdade ajuda com isso?,vagas_convenio,humano
+alguma oportunidade rolando em (local)?,vagas_convenio,humano
+tce é aquele documento que a empresa me deu no primeiro dia?,termo_compromisso,humano
+"Ja assinei o termo mas a faculdade ainda nao recebeu, o que faço?",termo_compromisso,humano
+TCE tem validade?,termo_compromisso,humano
+"perdi meu termo de compromisso, como pego outra via",termo_compromisso,humano
+"vou trocar de empresa, faço outro tce?",termo_compromisso,humano
+quantas vias tem o termo de estagio,termo_compromisso,humano
+tem q ter assinatura da facul no tce?,termo_compromisso,humano
+Qual a funçao do termo de compromisso?,termo_compromisso,humano
+o tce é so quando começo ou tem que renovar,termo_compromisso,humano
+como emito o tce no sistema,termo_compromisso,humano
+"se eu me machucar la dentro, quem responde?",seguro,humano
+"bati a moto indo pro estagio, o seguro cobre?",seguro,humano
+o meu seguro ja foi emitido?,seguro,humano
+qual empresa de seguros atende os estagiarios daqui,seguro,humano
+"comecei segunda e ate agora ninguem falou de seguro, ta certp?",seguro,humano
+cade o comprovante do meu seguro,seguro,humano
+"cobertura do seguro de estagiario, o que inclui?",seguro,humano
+"a empresa me falou q a facul faz o seguro, é verdade?",seguro,humano
+preciso pagar algo pelo seguro?,seguro,humano
+o seguro vale durante as ferias da facul?,seguro,humano
+"to atrasada com o relatorio do estagio, ainda da tempo?",relatorio_avaliacao,humano
+"de que jeito sou avaliado no estagio, tem nota?",relatorio_avaliacao,humano
+onde mando o relatorio final?,relatorio_avaliacao,humano
+"tem formato pra seguir no relatorio fibal? fonte, margem, essas coisas",relatorio_avaliacao,humano
+o supervisor tb preenche o relatorio?,relatorio_avaliacao,humano
+relatorio final é obrigatorio,relatorio_avaliacao,humano
+"reprovei no relatori final, e agora?",relatorio_avaliacao,humano
+quanto tempo demora pra sair o resultado da avaliaçao,relatorio_avaliacao,humano
+preciso de assinatura da empresa no relatorio?,relatorio_avaliacao,humano
+O que devo escrever na parte de atividades realizadas?,relatorio_avaliacao,humano
+qual o melhor celular custo beneficio hoje,fora_dominio,humano
+me ajuda com um exercicio de calculo 2,fora_dominio,humano
+"meu tenis ta fedendo, como lavar sem estragar",fora_dominio,humano
+Quando vai ser o proximo jogo do Flamengo?,fora_dominio,humano
+tem como pagar a mensalidade da faculdade no cartão?,fora_dominio,humano
+tem como tramcar meu curso por um tempo,fora_dominio,humano
+"meu wifi cai toda hora, o que pode ser?",fora_dominio,humano
+Onde fica a biblioteca?,fora_dominio,humano
+me dá uma dica de série pra maratonar,fora_dominio,humano
+como abro um cnpj,fora_dominio,humano
+quanto custa um ventilador,fora_dominio,humano
+quando vai ser a minha formatura?,fora_dominio,humano
+esqueci a senha do meu banco,fora_dominio,humano
+como faço permuta?,fora_dominio,humano
+como fala 'saudade' em ingles,fora_dominio,humano
+dica de como estudar melhor pra prova,fora_dominio,humano
+quanto é 15% de 280,fora_dominio,humano
+qual a capital da Australia,fora_dominio,humano
+"meu cachorro nao quer comer, oq eu faço?",fora_dominio,humano
+Como faço pra ir da faculdade ao centro de onibus,fora_dominio,humano
+o ru abre que horas,fora_dominio,humano
+recomenda um fone bom e barato,fora_dominio,humano
+"fiz um pix errado, consigo cancelar?",fora_dominio,humano
+quais as datas das provas finais,fora_dominio,humano
+como baixar o office de graça,fora_dominio,humano
+to com dor de cabeça forte desde ontem,fora_dominio,humano
+"como funciona o sistema de notas da facul, media 6?",fora_dominio,humano
+quem ganhou a copa de 2014,fora_dominio,humano
+qual a melhor linguagem pra aprender primeiro,fora_dominio,humano
+onde pego declaraçao de vinculo com a faculdade,fora_dominio,humano

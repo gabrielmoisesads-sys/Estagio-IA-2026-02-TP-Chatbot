@@ -1,0 +1,481 @@
+{
+  "grupo": "Grupo Estágio",
+  "tema": "Estágio",
+  "intencoes": [
+    "tipos_estagio",
+    "vagas_convenio",
+    "termo_compromisso",
+    "carga_horaria",
+    "bolsa_auxilio",
+    "seguro",
+    "orientador_supervisor",
+    "relatorio_avaliacao"
+  ],
+  "escopo": {
+    "n": 190,
+    "acuracia": 0.8947368421052632,
+    "f1_macro": 0.8529577517529324,
+    "por_classe": {
+      "dominio": {
+        "precision": 0.9069767441860465,
+        "recall": 0.975,
+        "f1-score": 0.9397590361445783,
+        "support": 120.0
+      },
+      "chitchat": {
+        "precision": 0.8,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.8615384615384616,
+        "support": 30.0
+      },
+      "fora_dominio": {
+        "precision": 0.9615384615384616,
+        "recall": 0.625,
+        "f1-score": 0.7575757575757576,
+        "support": 40.0
+      },
+      "accuracy": 0.8947368421052632,
+      "macro avg": {
+        "precision": 0.8895050685748361,
+        "recall": 0.8444444444444444,
+        "f1-score": 0.8529577517529324,
+        "support": 190.0
+      },
+      "weighted avg": {
+        "precision": 0.9015723566519158,
+        "recall": 0.8947368421052632,
+        "f1-score": 0.889054044665966,
+        "support": 190.0
+      }
+    },
+    "rotulos": [
+      "dominio",
+      "chitchat",
+      "fora_dominio"
+    ],
+    "matriz_confusao": [
+      [
+        117,
+        2,
+        1
+      ],
+      [
+        2,
+        28,
+        0
+      ],
+      [
+        10,
+        5,
+        25
+      ]
+    ]
+  },
+  "tema_oraculo": {
+    "n": 120,
+    "acuracia": 0.9333333333333333,
+    "f1_macro": 0.9333895450813554,
+    "por_classe": {
+      "tipos_estagio": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 15.0
+      },
+      "vagas_convenio": {
+        "precision": 0.9285714285714286,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.896551724137931,
+        "support": 15.0
+      },
+      "termo_compromisso": {
+        "precision": 1.0,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9655172413793104,
+        "support": 15.0
+      },
+      "carga_horaria": {
+        "precision": 0.8823529411764706,
+        "recall": 1.0,
+        "f1-score": 0.9375,
+        "support": 15.0
+      },
+      "bolsa_auxilio": {
+        "precision": 0.9285714285714286,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.896551724137931,
+        "support": 15.0
+      },
+      "seguro": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 15.0
+      },
+      "orientador_supervisor": {
+        "precision": 1.0,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.9285714285714286,
+        "support": 15.0
+      },
+      "relatorio_avaliacao": {
+        "precision": 0.9333333333333333,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9333333333333333,
+        "support": 15.0
+      },
+      "accuracy": 0.9333333333333333,
+      "macro avg": {
+        "precision": 0.9382703081232493,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9333895450813554,
+        "support": 120.0
+      },
+      "weighted avg": {
+        "precision": 0.9382703081232493,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9333895450813555,
+        "support": 120.0
+      }
+    },
+    "rotulos": [
+      "tipos_estagio",
+      "vagas_convenio",
+      "termo_compromisso",
+      "carga_horaria",
+      "bolsa_auxilio",
+      "seguro",
+      "orientador_supervisor",
+      "relatorio_avaliacao"
+    ],
+    "matriz_confusao": [
+      [
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        13,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        13,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        14
+      ]
+    ]
+  },
+  "ponta_a_ponta": {
+    "n": 190,
+    "acuracia": 0.8473684210526315,
+    "f1_macro": 0.8783272340649819,
+    "por_classe": {
+      "tipos_estagio": {
+        "precision": 0.7894736842105263,
+        "recall": 1.0,
+        "f1-score": 0.8823529411764706,
+        "support": 15.0
+      },
+      "vagas_convenio": {
+        "precision": 0.8666666666666667,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.8666666666666667,
+        "support": 15.0
+      },
+      "termo_compromisso": {
+        "precision": 0.9230769230769231,
+        "recall": 0.8,
+        "f1-score": 0.8571428571428571,
+        "support": 15.0
+      },
+      "carga_horaria": {
+        "precision": 0.9333333333333333,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9333333333333333,
+        "support": 15.0
+      },
+      "bolsa_auxilio": {
+        "precision": 0.9285714285714286,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.896551724137931,
+        "support": 15.0
+      },
+      "seguro": {
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1-score": 0.967741935483871,
+        "support": 15.0
+      },
+      "orientador_supervisor": {
+        "precision": 0.9230769230769231,
+        "recall": 0.8,
+        "f1-score": 0.8571428571428571,
+        "support": 15.0
+      },
+      "relatorio_avaliacao": {
+        "precision": 0.875,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9032258064516129,
+        "support": 15.0
+      },
+      "chitchat": {
+        "precision": 0.8,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.8615384615384616,
+        "support": 30.0
+      },
+      "fora_dominio": {
+        "precision": 0.9615384615384616,
+        "recall": 0.625,
+        "f1-score": 0.7575757575757576,
+        "support": 40.0
+      },
+      "micro avg": {
+        "precision": 0.8846153846153846,
+        "recall": 0.8473684210526315,
+        "f1-score": 0.8655913978494624,
+        "support": 190.0
+      },
+      "macro avg": {
+        "precision": 0.8938237420474262,
+        "recall": 0.8758333333333332,
+        "f1-score": 0.8783272340649819,
+        "support": 190.0
+      },
+      "weighted avg": {
+        "precision": 0.8953264360293446,
+        "recall": 0.8473684210526315,
+        "f1-score": 0.8611134524853588,
+        "support": 190.0
+      }
+    },
+    "rotulos": [
+      "tipos_estagio",
+      "vagas_convenio",
+      "termo_compromisso",
+      "carga_horaria",
+      "bolsa_auxilio",
+      "seguro",
+      "orientador_supervisor",
+      "relatorio_avaliacao",
+      "chitchat",
+      "fora_dominio"
+    ],
+    "matriz_confusao": [
+      [
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        13,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        12,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        28,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        5,
+        25,
+        4
+      ]
+    ],
+    "rotulos_previstos": [
+      "tipos_estagio",
+      "vagas_convenio",
+      "termo_compromisso",
+      "carga_horaria",
+      "bolsa_auxilio",
+      "seguro",
+      "orientador_supervisor",
+      "relatorio_avaliacao",
+      "chitchat",
+      "fora_dominio",
+      "esclarecer"
+    ],
+    "taxa_falso_aceite": 0.1,
+    "taxa_falsa_recusa": 0.025,
+    "taxa_esclarecimento": 0.042105263157894736,
+    "latencia_media_ms": 4.094857368419837
+  },
+  "arquivo_teste": "C:\\Users\\GABRI\\OneDrive\\Documentos\\UFMS\\IA\\TRABALHO\\Est-gio-IA-2026-02-TP-Chatbot\\dados\\teste.csv"
+}

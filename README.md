@@ -4,7 +4,10 @@
 
 ## Nosso grupo: "Estagi", o chatbot de Estágio da UFMS
 
-**Integrantes:** Fernanda Brittes, Willian e Gabriel · **Tema:** Estágio
+**Integrantes:** Fernanda Lara de Brittes (202519060201), Willian Carneiro Ferreira
+(2026.1904.001-6) e Gabriel Moisés Ribeiro Lanzarin (202219070236) · **Tema:** Estágio
+
+**Vídeo:** ver `LINKS.txt` · **Artigo:** `relatorio/relatorio.pdf` · **Uso de IA:** `USO_DE_IA.md`
 
 ### Decisões do grupo
 
@@ -16,10 +19,14 @@
   documentos oficiais da UFMS (PDF) e 9 resumos escritos a partir deles.
 * **Dados de treino**: frases do LLM revisadas (`gpt-6-luna`), negativos difíceis
   dos temas dos outros grupos, amostra da MASSIVE e frases humanas do nosso
-  formulário. **Teste**: só frases humanas do formulário.
+  formulário (661 frases, 20,1% humanas). **Teste**: 190 frases, todas humanas
+  do formulário, sem repetição no treino.
 * **Classificadores**: escolhidos por validação cruzada (5 folds) entre 4 algoritmos
   e 3 representações; detalhes em `notebooks/01_trabalho_grupo.ipynb`.
+  Escopo: regressão logística com n-gramas de caracteres; tema: MLP.
+* **Limiar de confiança** `limiar_tema: 0.30`, escolhido por validação cruzada no treino.
 * **Aprofundamento**: A1, cascata × classificador único.
+* **Resultado no teste** (`scripts/avaliar.py`): F1 macro ponta a ponta 0,878.
 
 ### Como reproduzir
 
@@ -33,8 +40,9 @@ copy .env.exemplo .env                               # e cole a chave do grupo
 #   python scripts/gerar_dados_llm.py --rotulos chitchat --n 14
 #   python scripts/gerar_negativos_dificeis.py --n 14
 python scripts/baixar_massive.py
-python scripts/dividir_formulario.py dados/formulario_rotulado.csv   # respostas humanas rotuladas
-python scripts/montar_treino.py                      # gera dados/treino.csv e dados/teste.csv
+# frases humanas já separadas em dados/humano_treino.csv e dados/humano_teste.csv
+# (vieram de: python scripts/dividir_formulario.py <respostas rotuladas do formulário>)
+python scripts/montar_treino.py --llm-intencao 41 --llm-chitchat 53 --chitchat-massive 28 --llm-fora 92 --fora-massive 30
 jupyter nbconvert --to notebook --execute --inplace notebooks/01_trabalho_grupo.ipynb
 python scripts/avaliar.py
 python scripts/verificar_entrega.py
